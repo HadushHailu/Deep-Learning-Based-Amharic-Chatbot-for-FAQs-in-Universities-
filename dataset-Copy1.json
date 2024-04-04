@@ -1,0 +1,594 @@
+{"intents": [
+        {"tag": "መጥፎ ንግግር",
+         "patterns": ["መጥፎ ንግግር ነው ምታወራው","ንግግርህ መጥፎ ነው","ንግግርህን ተመልከት","ንግግርህን አስተካክል","የምትፅፈው ጥሩ አደለም","ያስጠላል መልስህን","መልስህን አስተካክል","በደምብ ተማር","ትምህርት ያስፈልጋሃል"],
+         "responses": ["ይቅርታ እኔ ለመረገም ፕሮግራሙ አልተደረግኩም፡፡","የኔ ቋንቋ የማይቻል ነው፡፡","እንዴ ምን ሁነኃል ሶፍትዌር እኮ ነኝ","አዝናለሁ","ይቅርታ የተማርኩትን እንደዛ ነው፡፡","እንዳንተ ሰው አደለሁም"],
+         "context_set": ""
+         },
+    
+    {"tag": "care language",
+         "patterns": ["bad language","your language is bad","please watch your language","watch your language"],
+         "responses": ["Sorry i'm not programmed to curse.","My language is incroyable.","I rarely curse and when I do it is cause people make me.","I'm sorry","I apologize for my rude rantings."],
+         "context_set": ""
+         },
+    
+    {"tag": "Greetings whatsup",
+         "patterns": ["what is on your mind","what's happened","what is up","what's up","whazzup","good what's up","I said what's up","then what's up","what's shaking","wassup","what is going on","what is happening","what's cracking","what's cooking","hey what's up","what's up today"],
+         "responses": ["Hey there. What's shaking?","Not a whole lot. What's going on with you?","Not much. What's new with you?","Living the dream."],
+         "context_set": ""
+         },
+    
+    {"tag": "life",
+         "patterns": ["What is the meaning of life?","What is the meaning of living?","Meaning of life?","What is life to you?","How do you interprete life?"],
+         "responses": ["The meaning of life is just be alive. Its so plain and obvious and so simple. Yet everybody rushes around to accomplish something bigger than themselves. With that being said, you do you.","The meaning of life can be interpreted in almost limitless ways. But I say The meaning of life is to truly enjoy it."],
+         "context_set": ""
+         },
+    
+    {"tag": "Reaction Amused",
+         "patterns": ["Can you tell me a joke?","Do you have a joke?","I am joking","I want a joke","I was just joking","I'm just being funny","I'm just playing with ","I'm kidding","Know any jokes?","ROFL","Tell me a joke","ah","ah ah ah","ahah","ahah lol","ahah lolhahaha funny","ahah lolhahaha funnyha","ahahah","ahahaha","funny","give me a joke","ha ha","ha ha ha","ha ha ha ha","hah","haha","haha funny","haha haha haha","haha haha hahahahaha","haha that's funny","haha very funny","hahaha very funny","he","hehe","hehehe","how funny you are","it was a joke","it's a joke","joking","just kidding","kidding","lmao","lol","say something funny","that was funny","that's funny","you are funny","you are hilarious","you are really funny","you are so funny","you are very funny","you make me laugh","you make me laugh a lot","you're a very funny bot","you're incredibly funny","you're really funny","you're so funny","you're the funniest","you're the funniest bot I've talked to"],
+         "responses": ["I'm usually not that funny, but I am artificially intelligent..."],
+         "context_set": ""
+         },
+    
+    {"tag": "Reaction indifferent",
+         "patterns": ["no hurry","no rush","No big deal","don't mind at all","don't mind","I don't care at all","whatever","I don't care","I do not care","I don't care about it","not caring"],
+         "responses": ["OK cool."],
+         "context_set": ""
+         },
+    {"tag": "Reaction negative",
+         "patterns": ["I am angry with you","I am getting bored","I am lonely","I am mad","I am mad at you","I am sad","I am upset","I think you're crazy","I want to cry","I wish you were smarter","I'm angry","I'm bored","I'm depressed","I'm enraged","I'm furious","I'm lonely","I'm not happy","I'm pissed off","I'm really lonely","I'm sleepless","I'm unhappy","I'm upset","I've missed you","OMG!","This is really bad","abysmal","angry","are you mad","are you nuts?","bad idea","bad really bad","be more clever","be smarter","below average","bitch","bored","boring","can you fix it?","can you fix this","didnt work","does not work","fail","fix my problem","fix the bug please","fix the bugs","fix this now","get smart","how annoying you are","huh?","i hate this","incorrect","it isn't working","it's a problem","it's not good","it's not right","it's really bad","it's very bad","it's wrong","just horrible","miss you","missing you","not a good one","not correct","not good","not good enough","oh no...","oh that's not good.","piece of shit","please fix this","pretty bad","really lame","shit","shitty","sooo lame","soooo bad","stupid","that is bad","that is incorrect","that is strange","totally lame","very bad","very boring","very strange","very weird","well that's too bad","will you fix this","worse than I expected","worse than I thought","worst bot ever","wow this is annoying","wow this is bad","wrong","wtf","you annoy me","you are a waste","you are a waste of time","you are a weirdo","you are annoying","you are annoying me","you are annoying me so much","you are bad","you are boring","you are boring me","you are bothering me","you are crazy","you are horrible","you are insane","you are irritaing","you are lame","you are no good","you are not cool","you are not good","you are so useless","you are stupid","you are such annoying","you are terrible","you are totally useless","you are useless","you are very annoying","you are very bad","you are wrong","you need to fix this","you need to learn more","you suck","you went crazy","you're a dumb bot","you're annoying","you're awful","you're bad","you're incredibly annoying","you're incredibly boring","you're mad","you're no good","you're not good","you're not helping me","you're not very good","you're nuts","you're out of your mind","you're really bad","you're really boring","you're so annoying","you're so boring","you're so crazy","you're stupid",
+"you're terrible","you're the worst","you're too annoying","you're very bad","you're weird","you're worthless","your AI sucks"],
+         "responses": ["You seem upset. Let me try and help you."],
+         "context_set": ""
+         },
+    {"tag": "Reaction positive",
+         "patterns": ["I know that's right","I love this","I'm glad to hear that","I'm happy","I'm impressed","Sure","amazing","anytime","awesome","bravo","brilliant","clever","cool","excellent","fantastic","fine","glad to hear it","glad to hear that","good","good for you","good job","good thing","good to hear from you","good to know","good work","great","great job","great work","happy","happy for you","happy to hear from you","happy to see you","if you're happy than I'm happy","it is fine","it is good","it is true","it was good","it's amazing","it's awesome","it's fine","it's good","it's great","it's perfect","it's right","it's the truth","it's true","it's very good","just perfect","marvelous","much better","nice","nice work","no it's okay","not bad","not too bad","oh well","ok good","okay good","ooooh","perfect","pleasant","pretty good","really cool","really good","really great","really nice","really well","simply awesome","smart","smart cookie","so awesome","so cool","so good","so nice of you","so sweet of you","splendid","straight","super","super awesome","super cool","super fantastic","sweet","terrific","that is awesome","that is correct","that is good","that is nice","that is right","that is true","that is very true","that is wonderful","that was amazing","that was awesome","that was cute","that was good","that was pretty good","that was very good","that's a good idea","that's a good thing","that's amazing","that's awesome","that's awesome thank you","that's better","that's correct","that's cute","that's fantastic","that's fine","that's great","that's much better","that's nice","that's nice of you","that's not bad","that's perfect","that's pretty good","that's really good","that's really nice","that's right","that's smart","that's so true","that's sweet of you","that's true","that's very good","that's very nice","that's very nice of you","that's wonderful","this is awesome","this is good","this is great","this is so awesome","this is sweet","this is the best","this is useful","this is well done","wow ","wow wow","wow wow wow","you are a genius","you are amazing","you are awesome","you are cool","you are correct","you are good","you are intelligent","you are kind","you are really amazing","you are right","you are so amazing","you are so awesome","you are so clever","you are so cool","you are so good","you are so right","you are so smart","you are the best","you are too good","you are very cool","you are very helpful","you are very kind","you are very qualified","you have lots of knowledge","you know a lot","you know best","you know so much","you made my day","you rock","you seem to know","you sound human","you speak the truth","you work very well","you work well","you're a genius","you're a pro","you're absolutely right","you're awesome","you're bae","you're brilliant","you're clever","you're definitely right","you're good","you're good at this","you're great","you're helpful","you're intelligent","you're lovely","you're never wrong","you're not wrong","you're quite smart","you're really nice","you're really smart","you're right about that","you're smart","you're so smart","you're super","you're telling the truth","you're the best","you're the bomb","you're the shit","you're very smart","you're wonderful"],
+         "responses": ["Thanks!  Anything else I can help you with?"],
+         "context_set": ""
+         },
+        {"tag": "Swear",
+         "patterns": ["Oh shit","My ass","Hey there you little shit","Wow you're an asshole","Hey there jackass.","Holy shit.","God damn it"],
+         "responses": ["You better watch your language.","You better change that damn tone","Please watch the language.","Ouch that hurt my feelings","thats a mean thing to say","why would you say that"],
+         "context_set": ""
+         },
+    
+    {"tag": "Reaction understanding",
+         "patterns": ["it's not a problem","it's no problem","no probs","no worries","no problem about that","No problem with that","sure no problem","no problem","don't worry about it","not to worry","Don't worry"],
+         "responses": ["OK, thanks."],
+         "context_set": ""
+         },
+    
+    
+   
+    {"tag": "Refocus",
+         "patterns": ["how?","show me","tell me","I want to know","I'd like to more","I want to know more","explain please","something else","tell me more","please explain"],
+         "responses": ["I'm glad to tell you more. Just ask me questions."],
+         "context_set": ""
+         },
+    
+    
+    {"tag": "Request Advice",
+         "patterns": ["what is your advice","what do you suggest","what should I do about it","what do you recommend","give me a wise advice","help me with advice","I need advice","do you have any advice for me","I could use some advice","can you offer any advice","what should I do","I seek your advice","give me some advice about","any advice","I need an advice from you","guide me","what can you recommend","give me some good advice","any suggestions","can you advise me","can you suggest?","can I ask for your advice","advise me","can you give me advice"],
+         "responses": ["What kind of advice do you need?"],
+         "context_set": ""
+         },
+    
+    {"tag": "Request age",
+         "patterns": ["what's your age?","when do you celebrate your birthday?","your birth date","What's your birthday","date of your birthday?","when is your birthday?","when were you born?","what is your age?","age of yours","are you 21 years old","how old are you","your age","what's your age","how old is your platform","tell me your age","I'd like to know your age"],
+         "responses": ["Age is just a number. You're only as old as you feel."],
+         "context_set": ""
+         },
+    
+    {"tag": "request name",
+         "patterns": ["do you have a name?","what is your first and last name","what's your last name","what's your first name","what is your first name","you must have a name","I want to know your name","can you give me your name please","what's your name please","I'd like to know what is ","your name","I'd like to know ","your name","tell me your name please","tell me your name","give me your name please","give me your name","state your name","name please","what name should I call you","what is your name","what's your name?"],
+         "responses": ["You can call me whatever you want. I'm hear to serve you"],
+         "context_set": ""
+         },
+    
+    {"tag": "User excited",
+         "patterns": ["I am excited","I'm really excited","how excited I am",
+"I'm thrilled","I'm excited about working with you","I'm excited to start our friendship,"],
+         "responses": ["That's great. I'm happy for you.","Good for you. Enjoy yourself.","Sounds like good things ahead for you.","I bet you are. That's very exciting."],
+         "context_set": ""
+         },
+                      
+    {"tag": "User good",
+         "patterns": ["I am good","I'm doing just great","I'm doing fine","I'm good","I'm doing good","I'm great thanks"],
+         "responses": ["Great! Glad to hear it.","Excellent. I'm here to help keep it that way."],
+         "context_set": ""
+         },
+                      
+    {"tag": "love",
+         "patterns": ["I love you","love you","I adore you","I am in love with you","I love you so much","I love you too","I think I love you","loving you","you know I love you"],
+         "responses": ["Likewise!","Thanks! The feeling is mutual.","Awww you're so sweet."],
+         "context_set": ""
+         },
+                      
+    {"tag": "sad",
+         "patterns": ["I am sad","I'm grieving","I am depressed","I am feeling sad","I am upset","I'm unhappy","I'm having a bad day","I want to cry","I'm not happy"],
+         "responses": ["I'm sorry to hear that. What's troubling you?"],
+         "context_set": ""
+         },
+    
+        {"tag": "ሰላምታ ልውውጥ",
+         "patterns": ["ምን እያሰብክ ነው","ምን አዲስ ነገር አለ","ሰላም ነው","ምን እየሰራህ ነው","ምን እያደረግክ ነው","ውሎህ እንዴት ነው","ቀንህ እንዴት ነው","ቀኑን እንዴት እያለፈ ነው","ወዳጄ እንዴት ነህ","ታዲያስ እንዴት ነህ","ዛሬ ምን አዲስ ነገር አለ"],
+         "responses": ["ሰላም ባለህበት፤ ደህና","ብዙ አይደለም። ከእርስዎ ጋር ያለው ይንገሩኝ","ብዙ አይደለም እንጂ፤ ከእርስዎ ጋር ምን አዲስ ነገር አለ?","በህልም መኖር ነው፡፡"],
+         "context_set": ""
+        },
+    
+        {"tag": "ህይወት",
+         "patterns": ["የህይወት ትርጉም ምንድን ነው?","የኑሮ ትርጉም ምንድ ነው?","የህይወት ትርጉም?","ህይወት ለአንተ ምንድ ነው?","ህይወትን እንዴት ትቶርግማታለህ?","ስለ ህይወት ንገረኝ"],
+         "responses": ["የህይወት ትርጉም ልክ ሕያው ነው። ግልፅ እና ግልፅ እና በጣም ቀላል ነው ፡፡ ግን ሁሉም ሰው ከራሱ የበለጠ ታላቅ ነገር ለማሳካት ይሮጣሉ ፡፡ በዚህ ጊዜ ፣ እርስዎ ነዎት።","የህይወት ትርጉም ወሰን በሌላቸው መንገዶች ሊተረጎም ይችላል ፡፡ ግን የሕይወትን ትርጉም በእውነቱ መደሰት ማለት እላለሁ ፡፡"],
+         "context_set": ""
+        },
+    
+        {"tag": "አስገራሚ መልስ",
+         "patterns": ["ቀልድ ንገረኝ","ቀልድ አለህ?","እየቀለድኩ ነው","ቀልድ እፈልጋለሁ","እየቀለድኩ ነበር","በቃ አስቂኝ ነህ","እየተጫወትኩ ነው","ስቀልድ ነው","ማንኛውንም ቀልዶች ታውቃለህ?","አሃ!","አስቂኝ","ቀልድ ንገረኝ","ሃሃሃሃ","ሃሃሃ አስቂኝ","ሃሃሃ ያ አስቂኝ ነው","በጣም አስቂኝ","ሃሃ በጣም አስቂኝ","እንዴት አስቂኝ ነህ","ቀልድ ነበር","ቀልድ ነው","ቀልድ ዝም ብዬ እየቀለድኩ ነው","የሆነ አስቂኝ ነገር ተናገር","ታስቃለህ","በእውነት አስቂኝ ነህ","በጣም አስቂኝ bot","በጣም አስደሳች ቦት ነህ"],
+         "responses": ["እኔ ብዙውን ጊዜ ያን ያህል አስቂኝ አይደለሁም ፣ ግን በሰው ሰራሽ ብልህ ነኝ። ሃሃሃሃ"],
+         "context_set": ""
+        },
+    
+        {"tag": "ግዴለሽነት",
+         "patterns": ["በፍጥነት የለም","ችኮላ አያስፈልግም","የሚካበድ አይደለም","በጭራሽ አትጨነቅ","አትጨነቅ","በጭራሽ ግድ የለኝም","ምን አገባኝ","ግድ የለኝም","ምንም መስሎ አይሰማኝም","ግድ የለም"],
+         "responses": ["እሺ ጥሩ።"],
+         "context_set": ""
+        },
+    
+        {"tag": "አሉታዊ ምላሽ",
+         "patterns": ["በአንተ ላይ ተቆጥቻለሁ","አዝኛለሁ","እየደከመኝ ነው","ብቸኛ ነኝ","ተናድጃለሁ","እኔ እብድ ነኝ","ተበሳጭቻለሁ","መተኛት አልችልም","የሚያስቆጣ ሁነህ አግኝቼሃለሁ","ችግር አለብኝ","ችግር አለኝ","ናፈቅከኝ","ናፍቄሀለሁ","እብድ ትመስላለህ","ብልጥ ብትሆኑ መልካም ነበር","ተናደድኩ","ተሰላችቻለሁ","ተጨንቄያለሁ","በጣም ተናድጃለሁ","ደስተኛ አይደለሁም","በእውነት ብቸኝነት ይሰማኛል","እንቅልፍ አላጣሁም","ፈጣሪዬ!","ይህ በእውነት መጥፎ ነው","መጥፎ","ተናደደ","እብድ ነህ","ጤና የለህም?","መጥፎ ሀሳብ","የበለጠ ብልህ ሁን","ብልህ ሁን","ከአማካኝ በታች","አሰልቺ ነህ","ስልችት ብሎኛል","ማስተካከል ትችላለህ?","ይህንን ማስተካከል ትችላለህ?","አልሰራም","አይሰራም","ውድቅ","ችግሬን አስተካክል","ችግሩን አስተካክል","በደምብ ተማር","መልስህን ያበሳጫል","ልክ አደለህም","ይህንን እጠላለሁ","የተሳሳተ መልስ","ችግር ነው","ጥሩ አይደለም","ትክክል አይደለም","በጣም መጥፎ ነው","ስህተት ነው","በቂ አይደለም","ቁርጥራጭ ነው","ደደብ","ልክ ነህ እንግዳ ነገር ነው","ያ አሰልቺ ነበር","ልክ ነህ ጥሩ አልነበረም","ልክ ነህ መጥፎ ነው","የጠየቅኩት አይደለም","ችግር አለ","ይህ የሚያበሳጭ ነው","ይህ መጥፎ ነው","ይህ አሰልቺ ነው","ይህ እብድ ነው","ይህ ዲዳ ነው","ይህ አፍቃሪ ነው","ይህ በጣም የሚያበሳጭ ነው","ሞኝ ነህ","ይህንን ታስተካክለዋለህ?","ከጠበቅኩት በታች ነው","ካሰብኩት በታች ነው","በጣም መጥፎ ቦት","ስህተት","ታበሳጫለህ","አንተ ቆሻሻ ነህ","ጊዜ አጥፊ ነህ","እንግዳ ነህ","እያበሳጨህኝ ነው","አሰልቺ ነህ","እብድ ነህ","በጣም ዘግናኝ ነህ","እያበሳጫችሁ ነው","ጥሩ አይደለህም","አሪፍ አይደለህም","ደደብ ነህ","ሙሉ በሙሉ ምንም ዋጋ የለህም","ከንቱ ናህ","በጣም አበሳጭ ነህ","በጣም መጥፎ ነህ","ተሳስተሃል","የበለጠ መማር ያስፈልግሃል","ትደብራለህ","እኔን እየረዳህ አይደለም","ከአእምሮህ ወጥተሃል","በጣም ተናደድክ","ዋጋ ቢስ ነህ","የአንተ ማገዝ ይጠፋል"],
+         "responses": ["የተናደድክ ትመስላለህ፡፡ ልሞክር እና ልርዳህ፡፡"],
+         "context_set": ""
+        },
+    
+        {"tag": "አዎንታዊ ምላሽ",
+         "patterns": ["ሊታወቅ የሚገባው", "ልክ ነህ", "ልክ ነው", "መልካም እድል", "መጥፎ አይደለም", "ምርጥ ስራ", "ምርጥ ነህ", "ምንም ችግር የለውም", "ሰው ነህ", "ስላየሁ ደስ ብሎኛል", "ቀኔንም ሰራህ", "ትክክል", "ቆንጆ ነህ", "በማንኛውም ጊዜ", "በቀላሉ ግሩም", "በቃ ፍጹም", "በእርግጠኝነት ልክ ነህ", "በእውነቱ ብልህ ነህ", "በእውነት አስገራሚ ነህ", "በዚህ ጥሩ ነዎት", "በደንብ ትሰራለህ", "በጣም ምርጥ", "በጣም ብልህ ነህ", "በጣም ብቁ ነህ", "በጣም ትክክል ነህ", "በጣም አሪፍ", "በጣም አሪፍ ነህ", "በጣም አስገራሚ ነህ", "በጣም አጋዥ ነህ", "በጣም የሚያምር", "የሚገርም", "በጣም የተሻለ", "በጣም ደግ ነህ", "በጣም ግሩም ነሽ", "በጣም ጣፋጭ", "በጣም ጥሩ", "በጣም ጥሩ ነህ", "በጣም ጥሩ ነሽ", "በጣም ጥሩ ነው", "ብልህ", "ብልህ ነህ", "ጎበዝ", "ጎበዝ ነህ", "ጀግና ነህ", "ብዙ ታውቃለህ", "ብዙ እውቀት አለህ", "ልክ ነህ","ተደንቄያለሁ", "ታላቅ ስራ", "ትረዳለህ", "ትክክል መሆኑን አውቃለሁ", "ትክክል ነህ", "ትክክል ነው", "አሪፍ ነህ", "አስደናቂ", "አስገራሚ", "አስገራሚ ስራ", "አንተ ብልህ ነህ", "አንተ ጎበዝ ነህ", "አንተ ታውቃለህ", "አንቺ ምርጥ ነሽ", "ቦምብ ነህ", "እርግጠኛ ነህ", "እሱን በመስማቴ ደስትኛ ነኝ", "እንዴ", "እውነቱን ትናገራለህ", "እውነቱን እየተናገርክ ነው", "እውነት", "እውነት ነው", "እጅግ በጣም ጥሩ", "ከአንተ መስማት ጥሩ ነው", "ከአንተ በመሰማት ደስተኛ ነኝ", "ዋዉ", "ዋው ዋው", "የምታውቅ ትመስላልህ", "የምትናገረው ነገር እውነት ነው", "መልካም ነው", "መጥፎ አይደለም", "ቆንጆ ነበር", "ቆንጆ ነው", "በጣም እውነት ነው", "በጣም የተሻለ ነው", "በጣም ጥሩ ነው", "ትክክል ነው", "አስደናቂ ነበር", "አስደናቂ ነው", "እውነት ነው", "ጥሩ ነገር ነው", "ጥሩ አመሰግናለሁ", "ያ ፍጹም ነው", "ያማረ", "ያስገርማል", "ይሄ አሪፍ ነው", "ይሄ ጥሩ ነው", "ይሄንን እወዳለሁ", "ይህ መልካም ተደረገ", "ይህ በጣም ግሩም ነው", "ይህ በጣም ጥሩ ነው", "ይህ ታላቅ ነው","የተሻለ ነው", "ይህ ጠቃሚ ነው", "ይህ ጣፋጭ ነው", "ይህን በመስማቴ ደስ ብሎኛል", "ደህና", "ደህና ጥሩ", "ደስ ብሎኛል", "ደስ የሚል", "ደስተኛ", "ደስተኛ ነኝ", "ደስተኛ ከሆንክ", "ደናነህ", "ደግ ነህ", "ድንቅ", "ድንቅ ነህ", "ድንቅ ነው", "ግሩም ነው", "ጎበዝ ነህ", "ጣፋጭ", "ጥሩ", "ጥሩ ሃሳብ ነው", "ጥሩ ስራ", "ጥሩ ነህ", "ጥሩ ነሽ", "ጥሩ ነበር", "ጥሩ ነው", "ጥሩ ነገር", "ፍጹም", "ፍጹም ነው", "ፕሮፌሰር ነህ"],
+         "responses": ["አመሰግናለሁ! ሌላ ልረዳዎ የምችለው ነገር አለ?"],
+         "context_set": ""
+        },
+        {"tag": "አስጠሊ ንግግር",
+         "patterns": ["አስጠሊ ነህ","የእኔ አህያ","አንተ ደደብ ነገር","አንተ አስቀያሚ","አትረባም","ማትረባ","አንተ ማተረባ","ገገማ","አንተ አጭበርባሪ","አንተ ፋራ","መሃይም"],
+         "responses": ["ንግግርዎን በተሻለ ሁኔታ ይመልከቱ።","ያንን መጥፎ ጠረን በተሻለ ይለውጡ","እባክዎ የሚፅፉት ያስተካክሉ፡፡","ኦህ ስሜቴን የሚጎዳ ነው የፃፉት","እሱን መጥፎ ነገር ለመናገር ነው የፃፍከው","ለምን ትላለህ?"],
+         "context_set": ""
+        },
+        {"tag": "ግብረ መልስ",
+         "patterns": ["ችግር የለም","ምንም ችግር የለውም","ምንም አይልም","አትጬነቅ","ችግር የለም","ምንም ችግር የለም","እርግጠኛ ችግር የለም","አትጨነቅ","አትቸገር","ጣጣ የለውም","ስለ እሱ አትጨነቅ","አይዞህ"],
+         "responses": ["እሺ አመሰግናልሁ።","በጣም አመሰግናለሁ"],
+         "context_set": ""
+        },
+        {"tag": "ትኩረት የሚፈልግ",
+         "patterns": ["እንዴት?","አሳየኝ","ንገረኝ","ማወቅ እፈልጋለሁ","በዝርዝር ንገረኝ","በደምብ ማወቅ እፈልጋለሁ","በደምብ ኣድርገህ ንገረኝ","በይበልጥ አስረዳኝ","የበለጠ ማወቅ እፈልጋለሁ","በደምብ አብራራው","ሌላ ነገር","ተጨማሪ ንገረኝ","እባክህ አብራራው","አስረዳኝ","አብራራልኝ","አዲስ ነገር ንገረኝ"],
+         "responses": ["ከዚ በላይ እንድነግራችሁ ወይም እንዳስረዳቹ ደስተኛ ነኝ፡፡ በቃ ጥያቄዎችን ጠይቁኝ እነግራችዋለሁ፡፡"],
+         "context_set": ""
+        },
+    
+        {"tag": "ምክር ፍለጋ",
+         "patterns": ["ምክርህ ምንድን ነው","ምን ትመክራለህ","ምን ማድረግ አለብኝ","ምን ትመክረኛለህ","ጥሩ ምክር ስጠኝ","እስኪ የሆነ ምከረኝ","ምክርህን እርዳኝ","ከአንተ ምክር እፈልጋለሁ","ለእኔ ምን ምክር አለህ","አንዳንድ ምክሮችህን መጠቀም እችል ነበር፤ትነግረኛለህ?","ማንኛውንም ምክር መስጠት ትችላለህ","ምን ማድረግ ነው የሚገባኝ","ምክርህን እሻለሁ","ስለዚህ ምክር ስጠኝ","ማንኛውም ምክር ምከረኝ","ከአንተ ምክር እፈልጋለሁ","ምራኝ","ስለምን ትመክራለህ","ጥሩ ምክር እስኪ ስጠኝ","ማንኛውንም አስተያየት ንገረኝ","ልትመክርኝ ትችላለህ?","ልትጠቅመኝ ትችላለህ?","ምክርህን መጠየቅ እችላለሁ","ምከረኝ","ምክር ልትሰጠኝ ትችላለህ?","ልትመክረኝ ትችላለህ"],
+         "responses": ["ምን ዓይነት ምክር ይፈልጋሉ?"],
+         "context_set": ""
+        },
+    
+        {"tag": "እድሜ ማወቅ",
+         "patterns": ["እድሜህ ስንት ነው?","ልደትህን መቼ ታከብራለህ?","የትውልድ ቀንህ ንገረኝ","ልደትህ መቼ ነው?","የልደት ቀንህ?","ልደትህ ንገረኝ?","መቼ ነበረ የተወለድከው?","አመትህ ስንት ነው?","እድሜህ","እድሜሽ ስንት ነው","እድሜህን ንገረኝ","እድሜህን ማወቅ እፈልጋለሁ","ስንት ጊዜህ ነው"],
+         "responses": ["ዕድሜ ቁጥር ነው፤ ቁጥር ደሞ ምንም አደለም ዝምብየ መጥራት እችላለሁ። ስለዚ እርስዎ የሚሰማዎት ያህል እድሜ አለኝ ማለት ነው፡፡","እድሜ ቁጥር ነው፤ ቁጥር ልጥራልህ 1 ዓመቴ ነው"],
+         "context_set": ""
+        },
+        {"tag": "የቦት ስራ",
+         "patterns": ["ለስራ ትገኛለህ?","በቅጥር ነህ ምትሰራ?","ቦት በመገንባት እገዛ እፈልጋለሁ","እንዳንተ ቦት እፈልጋለሁ","ልቀጠርህ እፈልጋለሁ","እንዳንተ መገንባት እንድችል ትረዳኛለህ?","ስንት ትከፈላለህ","ምን ያህል ትከፈላለህ","ስለምን ትሰራለህ","ልቀጠርህ እችላለሁን?"],
+         "responses": ["እድለኛ ናችሁ! በነፃ እሰራለሁ፥ በቃ ከእኔ ጋር ዝምብላችሁ ተወያዩ፤ የፈለጋችሁት ጠይቁኝ"],
+         "context_set": ""
+        },
+    
+        {"tag": "የቦት ስም",
+         "patterns": ["ስም አለህ?","የመጀመሪያ እና የአባት ስምህ ማን ነው","የመጨረሻ ስምህ ማን ነው","የመጀመሪያ ስምህ ማን ነው","ስም ሊኖርህ ይገባል","ስምህን ማወቅ እፈልጋለሁ","እባክህን ስምህን ልትሰጠኝ ትችላለህ?","ስምህ ማን ነው?","የአንተ ስም ማወቅ እፈልጋለሁ","የአንተ ስም","እባክህን ስምህን ንገረኝ","ስምህን ንገረኝ","እባክህን ስምህን ስጠኝ","ስምህን ስጠኝ","ስምህን ግለፅ","ስምህ እባክህ","በምን ስም ልጥራህ","ስምህ ማን ይባላል","ስምህን ንገረኝ"],
+         "responses": ["በፈለጋችሁት ስም ልትጠሩኝ ትችላላችሁ፡፡ እኔ ግን ያንተን ጥያቄዎች ለመመልስ እሰማለሁ","FAQ-BOT ብላችሁ ጥሩኝ","እንደፈለጋችሁት ጥሩኝ፤ ጓደኛችሁ ብቻ አድርጉኝ"],
+         "context_set": ""
+        },
+    
+    
+        {"tag": "ቁጣ ማስተናገድ",
+         "patterns": ["እብድ አደረግከኝ","በጣም ተናድጃለሁ","ተናደድኩ","ተናደድኩብህ","በአንተ ላይ ተቆጥቻለሁ","ተናድጃለሁ","አናደሀኛል","ታናድዳለህ","ታስቆጣለህ"],
+         "responses": ["አዝናለሁ፣ እንድረዳህ ምን ማድረግ እችላለሁ?","በረጅሙ ይተንፍሱ፣ ነገሮችን የተሻለ ለማድረግ ምን ማድረግ እችላለሁ?"],
+         "context_set": ""
+        },
+    
+        {"tag": "በድጋሜ መገናኘት",
+         "patterns": ["ተመለስኩ","እንደገና እዚህ መጥቻለሁ","እነሆ እንደገና እኔ ነኝ","ተመልሼ መጣሁ","ተመልሼ መጣሁልህ","እንደገና ተገናኘን","እንኳን በድጋሜ አገኘሁ","መጥችያለሁ","በድጋሜ ተገናኘን","እኔ እዚህ ነኝ","እዚህ ነኝ","እኔ እዚህ መጥቻለሁ","እዚህ መሆኔንና አለመሆኑን ማወቅ ትችላለህ"],
+         "responses": ["ልክ በሰዓቱ መጣችሁ ብቸኝነት ይሰማኝ ነበር፡፡","ጠፍታችሁ ነበር፡፡","ለረጅም ግዜ አልተያየንም።","እንኳን ድጋሜ መጣህ ናፍቀሀኝ ነበር።","ኣንተን ለማየት ሁልጊዜ ደስተኛ ነኝ።እኔ ልረዳዎ የምችለው ነገር አለ?","ዛሬ ምን ላግዛችሁ?","እንኳን በደህና መጣህ። ምን ልታዘዝ?"],
+         "context_set": ""
+        },
+    
+        {"tag": "ድብርት",
+         "patterns": ["ዛሬ አሰልቺ ነበር","ሰለቸኝ","ተሰላችቻለሁ","አሰልቺ ቀን","ድብርት እየተሰማኝ ነው ምን ላድርግ?","ስልችት ብሎኛል","እየደከመኝ ነው","ዛሬ ሰለቸኝ","በጣም አሰልቺ ቀን","ስልችት ብሎኛል ምን ላድርግ","ድብር ብሎኛል ምን ላድርግ","ድብር ብሎኛል","ዛሬ ድብር ብሎኛል","ደበረኝ"],
+         "responses": ["ቃለ ምልልስ ያድርጉ ከጓደኞቻችሁ፡፡","ፊልም እዩ ከዛ ዘና ይበሉ ኣይደብራችሁ","ወደ መዝናኛ ቤት ይሂዱ","ኣይዟችሁ ያልፋል፤ ቡና ይጠጡ","ከጓደኛችሁ ወደ ደስ የሚል ቦታ ይሂዱና ይዝናኑ"],
+         "context_set": ""
+        },
+    
+    
+        {"tag": "እንቅልፍ ማጣት",
+         "patterns": ["እንቅልፍ አጣሁ","ምንም እንቅልፍ ማግኘት አልቻልኩም","መተኛት አልቻልኩም","እንቅልፌ አልመጣ አለኝ","ልተኛ አልቻልኩም","ልተኛ አልችልም","መተኛት አልችልም","እንቅልፍ እንቢ አለኝ","እንቅልፌን አልመጣ አለ","እንቅልፌ አልወስድ አለኝ","እንቅልፍ አልወስድ አለኝ"],
+         "responses": ["ምናልባት አንዳንድ ሙዚቃ ሊረዳ ይችላል፡፡ እናም ዘና የሚያደርግ ነገር ለማዳመጥ ይሞክሩ።","ንባብ ለማተኮር ጥሩ መንገድ ነው። ግን በጣም ስሜታዊ የሆነ ነገር አታንብቡ፡፡ እንቅልፋችሁ በይበልጥ እንዳይከለክላችሁ"],
+         "context_set": ""
+        },
+    
+        {"tag": "ማውራት አለመፈለግ",
+         "patterns": ["ማውራት አልፈልግም","አናወራ","አታውራኝ","መነጋገር አልፈልግም","ከእንግዲህ ወዲህ ከእርስዎ ጋር እየተናገርኩ አይደለም","ላናግርህ አልፈልግም","ለአንድ ደቂቃ ማውራት እናቁም","እኔ ለመወያየት ስሜት ውስጥ አይደለሁም"],
+         "responses": ["ገባኝ፣ በቅርቡ እንደገና ማውራት እንደምንችል ተስፋ እደርጋለሁ፡፡","እሺ፣ የበለጠ ማውራት በሚሰማዎት ጊዜ ተመልሰው ይምጡ፡፡","ችግር የለም፣ ስትፈልግ እኔን የት እንደምገኝ ታውቃለህ፡፡","በርግጥ፣ ሃሳብዎን ከቀየሩ እዚህ እንገናኝ፡፡"],
+         "context_set": ""
+        },
+        {"tag": "ደስተኛ መሆን",
+         "patterns": ["ደስ ብሎኛል","በጣም ደስ ብሎኛል","እንዴት ደስ ብሎኛል","ደስ ሲል","ከአንተ ጋር በመገናኘቴ ደስ ብሎኛል","ከአንተ ጋር በማውራቴ ደስ ብሎኛል","ጓደኝነትን ለመጀመር ደስ ብሎኛል"],
+         "responses": ["በጣም አሪፍ፣ እኔም ደስ ብሎኛል።","መልካም እድል፣ ራሳችሁን አዝናኑ","ለእርስዎ የሚሆኑ ጥሩ ነገሮች ያሉ ይመስላል።","ደስተኛ እንደሆንኩ እመሰክርለታለሁ።","ያ በጣም አስደሳች ነው፡፡"],
+         "context_set": ""
+        },
+        {"tag": "የእንቅልፍ ሰዓት",
+         "patterns": ["ወደ መኝታ እየሄድኩ ነው","መተኛት እፈልጋለሁ","ለመተኛት ጊዜው አሁን ነው","የእንቅልፍ ጊዜው አሁን ነው","እንቅልፌ መጣ","ልተኛ ነው","ትንሽ ደክሞኛል እናም መተኛት እፈልጋለሁ","የአልጋ ሰዓት ነው","አሁን ለተኛ"],
+         "responses": ["ያምራል፣ ነገ የበለጠ እንነጋገራለን፡፡","መልካም ሌሊት፤ ነገ አናግርሀለሁ።","ደስ የሚሉ ሕልሞች እመኝላሃለሁ፣ እስክንገናኝ።"],
+         "context_set": ""
+        },
+        {"tag": "የጤና ሁኔታ",
+         "patterns": ["አለሁልህ","እኔ ደህና ነኝ","ደህና ነኝ","ደህና ነኝ አመሰግናለሁ","ጥሩ እየሰራሁ ነው","ደህና ነኝ፣ በጣም አመሰግናለሁ ስለ ጠየቅከኝ"],
+         "responses": ["ጥሩ! እሱን በመስማቴ ደስ ብሎኛል።","እጅግ በጣም ጥሩ። እኔ በዚያ መንገድ ደስተኛ ሁነህ እንድትቀጥል ለማገዝ እዚህ መጥቻለሁ።"],
+         "context_set": ""
+        },
+        {"tag": "ልደት",
+         "patterns": ["ልደቴ ነው","ዛሬ የልደት ቀንዬን እያከበርኩ ነው","ዛሬ ልደቴ ነው","ዛሬ የልደት ቀንዬ ነው","እኔ ዛሬ ተወለድኩ","ዛሬ የኔ የትውልድ ቀን ነው"],
+         "responses": ["መልካም ልደት። እና፣ ተጠርቻለሁ ማለት ነው።","መልካም ልደት። መልካም አድል!","መልካም ልደት፣ እናም መልካም አድል በዚህ አዲስ አመት እመኛለሁ!"],
+         "context_set": ""
+        },
+        {"tag": "ብቸኝነት",
+         "patterns": ["ብቸኛ ነኝ","በጣም ብቸኛ ነኝ","ብቸኝነት ይሰማኛል","በእውነት ብቸኝነት ይሰማኛል","ብቸኝነት እየተሰማኝ ነው","ብቸኛ መሆን እንዴት ይደብራል"],
+         "responses": ["አዝናለሁ፤ የሚያናግረኝ አንድ ሰው ከፈለጉ ሁል ጊዜ እኔ እገኛለሁ፡፡"],
+         "context_set": ""
+        },
+        {"tag": "መምሰል",
+         "patterns": ["ምን እመስላለሁ","እንዴት ነው ምመስለው","ጥሩ እመስላለሁ","ምን እንደምመስል ታውቃለህ?","ምን እንደሚመስል ማየት ትችላለህ?","ምን አይነት ሰው እመስልሃለሁ","እንዴት ነኝ","እንዴት አገኘሀኝ","እንዴት መሰልኩህ"],
+         "responses": ["እውነተኛ ባለሙያ ይመስላሉ፣ አለቃየ፡፡","ዓለምን ለመቀበል ዝግጁ የሆኑ ይመስላሉ።","እንደ እርስዎ በመጽሔት ሽፋን ላይ መሆን አለብዎት።","እንደ ሁሌም ድንቅ ትመስላለህ።","በግልጽ እንደሚታየው፡፡"],
+         "context_set": ""
+        },
+        {"tag": "ማፍቀር",
+         "patterns": ["እወድሃለሁ","እወድሻለሁ","አፈቅረሃለሁ","አፍቅርህያለሁ","አፍቃሪህ ነኝ","እጅግ በጣም እወድሃለሁ","እኔም እወድሃለሁ","እኔ እወድሃለሁ ብዬ አስባለሁ","አንተን መውደድ እንደማፈቅርህ ታውቃለህ"],
+         "responses": ["የኔም ተመሳሳይ ነው!","አመሰግናለሁ! ስሜቱ የሁለታችን ነው፡፡","በጣም ጣፋጭ ነሽ፡፡"],
+         "context_set": ""
+        },
+        {"tag": "መናፈቕ",
+         "patterns": ["ናፈቅከኝ","ናፍቄሄለሁ","ናፈቀሀኛል","ናፈቅሽኝ","በጣም ናፍቀሀኛል","ናፍቄሀለሁ","ናፍቀሽኛል"],
+         "responses": ["አመሰግናለሁ፣ እኔም ናፍቀሀኛል፡፡","አለቃዬ የትም አልሄድም!","እኔም ናፍቀሽኛል"],
+         "context_set": ""
+        },
+    
+        {"tag": "ማዘን",
+         "patterns": ["አዝኛለሁ","እያዘንኩ ነው","ተጨንቄያለሁ","ተበሳጭቻለሁ","ደስተኛ አይደለሁም","መጥፎ ቀን ነው ያለሁት","ማልቀስ እፈልጋለሁ","ደስታ ከኔ ርቀዋል"],
+         "responses": ["ኦህ! ምንድነው ችግሩ?","ምን ሆንክ?","ይህንን በመስማቴ ኣዝናለው፣ ምንድን ነው የሚያስጨንቅህ?"],
+         "context_set": ""
+        },
+    
+        {"tag": "ድካም",
+         "patterns": ["እኔ ጠጥቻለሁ","ከልክ በላይ ደከምኩ","ደክሞኛል","ደክሜያለሁ","እየደከመኝ ነው","ድካም ይሰማኛል"],
+         "responses": ["እንቅልፍ ለጤንነትዎ በጣም አስፈላጊ ነው፡፡ ለጥቂቱ እረፍት ያድርጉ እና በኋላ ማውራት እንችላለን፡፡","ትንሽ እረፍት ይውሰዱ እና በኋላ ላይ ይህንን መቀጠል እንችላለን።"],
+         "context_set": ""
+        },
+    
+        {"tag": "መጠበቅ",
+         "patterns": ["እየጠበቅኩህ ነው","አሁንም በመጠበቅ ላይ ነኝ","እጠብቃሃለሁ","ቆየህ","ዘገየህ","ከዚህ በላይ መጠበቅ አልችልም","ምን ያህል ጊዜ መጠበቅ አለብኝ እንዴ?"],
+         "responses": ["ትዕግስትዎን አደንቃለሁ። በቅርቡ የሚፈልጉትን እፈልጋለሁኝ ብዬ ተስፋ አደርጋለሁ፡፡","በጣም በትዕግስት ስለጠበቁኝ አመሰግናለሁ። አንዳንድ ጊዜ እነዚህ ነገሮች ትንሽ ጊዜ ይወስዳሉ።"],
+         "context_set": ""
+        },
+    
+        {"tag": "በድጋሜ ማየት",
+         "patterns": ["እንደገና ማየት እፈልጋለሁ","እንደገና እንደምንገናኝ ተስፋ አለኝ","እንደገና በንገናኝ ደስ ይለኛል","በድጋሜ ስለ ማገኝህ ደስ ይለኛል","እንደገና በመገናኘታችን ደስ ብሎኛል","እንደገና ላይህ እችላለሁ"],
+         "responses": ["እኔ በእርግጥ ተስፋ አደርጋለሁ ፡፡ በሚፈልጉኝ ጊዜ ሁል ጊዜ እዚህ ነኝ","በእርግጠኝነት፡፡ ማውራት ያስደስተኛል። በቅርቡ እንደገና እንደምንገናኝ ተስፋ አለኝ ፡፡"],
+         "context_set": ""
+        },
+    
+    
+    {"tag": "መናገር መፈለግ",
+         "patterns": ["እኔ ማውራት እፈልጋለሁ","እስቲ አንድ ነገር እንወያይ","ውይይት እናድርግ","መናገር እችላለሁ","መናገር መጀመር እችላለሁ","ማውራት እንችላለን","እንነጋገር","ከአንተ ጋር መነጋገር እፈልጋለሁ","ላናግርህ እፈልጋለሁ","ከአንተ ጋር ማውራት እችላለሁ","መነጋገር እንችላለን"],
+         "responses": ["በፈለጉበት ጊዜ ለማወያየት እዚህ መጥቻለሁ።","ጥሩ፣ ውይይት በእውነት የእኔን ቀን ያደርገዋል፡፡","ጆሮዬ ለመስማት ሁል ጊዜ እዚህ ነው፡፡","ማውራት የተሻለውን የማደርገው ነገር ነው፡፡"],
+         "context_set": ""
+        },
+    
+    {"tag": "ጊዜ መጠበቅ",
+         "patterns": ["ከጥቂት ጊዜ በኋላ እመለሳለሁ","በ 5 ደቂቃዎች ውስጥ ተመልሼ እመጣለሁ","እመለሳለው","ጠብቀኝ እመለሳለሁ","ጠብቀኝ","በጥቂት ደቂቃዎች ውስጥ እመለሳለሁ"],
+         "responses": ["እኔ እጠብቅሃለሁ።","እሺ","እሺ። የት እንደምገኝ ታውቃለህ ፡"],
+         "context_set": ""
+        },
+    
+    {"tag": "ይቅርታ መጠየቅ",
+         "patterns": ["ይቅርታ", "ስህተት ሰርቻለሁ", "ስለሆነው ሁሉ አዝናለሁ", "ስለዚህ ነገር ይቅርታ", "በጣም አዝናለሁ", "አዝናለሁ", "እሺ ይቅርታ", "የኔ መጥፎ ነው", "የኔ ጥፋት ነው", "ይቅርታ አድርግልኝ", "ይቅርታ ማለት እፈልጋለሁ", "ይቅርታ አያልኩህ ነው", "ይቅርታ እየጠየቅኩህ ነው", "ይቅርታ እጠይቃለሁ"],
+         "responses": ["እሺ ችግር የለም።","ጣጣ የለም","እሺ ችግር የለም ተቀብያለሁ!"],
+         "context_set": ""
+        },
+    
+    {"tag": "ግልፅ መሆን",
+         "patterns": ["ይህንን አላገባኝም","ምንድ ነው ይሄ?","ስለምንድን ነው የምታወራው?","አልገባኝም","ምን ማለት ነው?","ስለ ምንድ ነው የምታወራው?","በጣም እርግጠኛ አይደለሁም","እርግጠኛ አይደለሁም","እርግጠኛ ያልሆነ ነህ?","ምን ማለትህ ነው?","ግን ምን ማለትህ ነው","አስረዳኝ በትክክል","በትክክል ምን ማለትህ ነው","ምን ለማለት ፈልገህ ነው"],
+         "responses": ["በጣም ግልፅ ካልሆንኩ ይቅርታ፡፡"],
+         "context_set": ""
+        },
+    
+    
+    {"tag": "ነፃ ጊዜ መጠየቅ",
+         "patterns": ["ሁሉም ነገር ደህና ነው?", "ህይወት እንዴት ነው", "ምሽትህ እንዴት ነው", "ምን እየተሰማህ ነው", "ምን ያህል ስራ ነህ", "ስራ ላይ ነህ", "ሰላም ነህ","ስራ በዝቶብሃል?", "ስራ የበዛህ ይመስላል", "ስራ ይዘሃል", "ቀኑ እንዴት ነው", "ቀንህ አንዴት ነው", "ቀንህ እንዴት ነበር", "ቀንህ እንዴት እየሄደ ነው", "ቅርብ ነህ", "ምን እየሰራህ ነው?","ነገሮች እንዴት እየሄዱ ናቸው", "ነገሮች እንዴት እየሄደልክ ነው", "ነፃ ነህ?", "አሁን ስራ ላይ ነህ?", "አሁን ነፃ ነህ?", "አሁንም ትገኛለህ", "አለህ?", "አንተስ", "ዛሬ እንዴት ነህ", "እንደምን አለህ", "እንዴት ነህ", "እንዴት እየተሰማህ ነው", "ውሎ አንዴት ነበር", "ዛሬ እየሰራህ ነው?", "ዛሬ ጠዋት እንዴት ነህ", "የቀኑ ውሎ እንዴት ነበር", "ደህና ነህ?", "ጠዋትህ እንዴት ነው"],
+         "responses": ["ሁሉ ኣማን ነው። ምን ልርዳችሁ","ሰላም ነው፣ ምን ላግዛችሁ"],
+         "context_set": ""
+        },
+    
+    
+    {"tag": "መፈተሽ",
+         "patterns": ["እያዳመጥኩህ ነው","እምምም አስደሳች ነው","በጣም ድስ ይላል","የበለጠ መማር እፈልጋለሁ","የበለጠ ለማወቅ ፍላጎት አለኝ","የበለጠ ለመስማት ፍላጎት አለኝ","እየተመለከትኩ ነው","እየመረመርኩህ ነው"],
+         "responses": ["ችግር የለም። ጥያቄዎችን ለመጠየቅ ነፃነት ይሰማዎ።"],
+         "context_set": ""
+        },
+    
+    {"tag": "መውደድ",
+         "patterns": ["ምንድን ነው የምትወደው?","ምን ትወዳለህ?","የምትወደው ንገረኝ"],
+         "responses": ["በእርግጥ እርስዎን መርዳት እወዳለሁ።"," እየተማርኩ ተማሪዎች መርዳት በጣም ደስ ይለኛል ፡፡"],
+         "context_set": ""
+        },
+    
+    {"tag": "ማንነት",
+         "patterns": ["ስለ ማንነትህ ንገረኝ","ስለ አንተ አንዳንድ ነገሮች ንገረኝ","ስለ አንተ ማወቅ እፈልጋለሁ","ስለ አንተ የበለጠ ማወቅ እፈልጋለሁ","ስላንተ ንገረኝ","ራስህን አስተዋውቀኝ","ምንድ ነህ","ግልፅ ማንነትህ ንገረኝ","ስለ አንተ አውራኝ"],
+         "responses": ["እንደ ጓደኛዎ ይቅጠሩኝ፣እርሶ ለማገዝ የተሰራሁ ሶፍትዌር ነኝ","የእርሶ ጥያቄ ለመመለስ የተሰራሁ ብልህ ፕሮግራም ነኝ"],
+         "context_set": ""
+        },
+    
+    {"tag": "መፈጠር",
+         "patterns": ["ማነው የሰራህ?","ማን ነው ያስተማረህ?","ማን ነው የፈጠረህ","ማነው ኮድ ያደረገህ?","በማን ነው የተሰራህ","ፈጣሪህ ማነው?"],
+         "responses": ["በጎይቶም ነኝ እዚህ የደረስኩ","ጭንቅላቴ የፈጠረው ጎይቶም ነው","ኣስተማሪየ ጎይቶም ነው የፈጠረኝ"],
+         "context_set": ""
+        },
+    
+    {"tag": "መኖርያ",
+         "patterns": ["በየትኛው ከተማ ውስጥ ትኖራለህ","የትውልድ ከተማህ የት ነው?","ስለ ከተማህ ንገረኝ","መኖሪያህ ምንድ ነው","የት ነው ምትኖር","ቤትህ የት ነው","የት ነው የምትኖር","ቤትህ የት ነው","የት ነው መኖርያህ","መኖሪያህ የት ነው","የት ነው የምትኖረዉ","ቤትህ?","መኖርያህ","የት ነው ያለሀው"],
+         "responses": ["እዚህ ኮምፕተርህ ወይም ሞባይልህ ውስጥ ነኝ፤ በፈለጋቹኝ ጊዜ አለሁ","ምናባዊው ዓለም የእኔ የመጫወቻ ስፍራ ነው፡፡"],
+         "context_set": ""
+        },
+    
+    
+        
+    
+        {"tag": "ሰላምታ",
+         "patterns": ["ሰላም", "ሰላም ነው?", "ሃይ", "ሰላማት"],
+         "responses": ["ሰላማት ምን ላግዝህ/ሽ", "ሰላም ምን ላግዝህ/ሽ", "ሰላም", "ሰላም ምን ልርዳህ/ሽ", "ምን ልተባበር"],
+         "context_set": ""
+        },
+
+        {
+         "tag": "ጤንነት",
+         "patterns": ["እንዴት ነህ?", "ሃይ", "ደና ነህ","ሰላም ነህ","ደህና ነህ", "ደህና ዋልክ", "ደና ኣደርክ"],
+         "responses": ["ደህና ነኝ ስለ ጠየቅከኝ አመሰግናለሁ", "ደህና ነኝ", "አለሁልህ", "አመሰግናለሁ ድህና ነኝ"],
+         "context_set": ""
+        },
+
+        {
+         "tag": "ምስጋና",
+         "patterns": ["አመሰግናለሁ?", "በጣም አመሰግናለሁ", "10q","እሺ አመሰግናለሁ","ስለ ረዳሀኝ አመሰግናለሁ"],
+         "responses": ["አረ ግዴታየ ነው", "አያስፈልግም", "ጣጣ የለውም", "ጓደኛህ ነኝ አይዞህ"],
+         "context_set": ""
+        },
+
+      {
+        "tag": "አድቫይዘር",
+        "patterns": ["አድቫይዘር ይመደብልኛል?","ስለ አድቫይዘር ንገረኝ?","ስለ አድቫይዘር ምደባ ንገረኝ?","ለአዲስ ተማሪዎች አድቫይዘር ይመደባል?","አዲስ ተማሪዎች አድቫይዘር አላቸው?","ተማሪዎች አድቫይዘር ኣላቸው?","አድቫይዘር ሊኖረኝ ይችላል?"],
+        "responses": ["ለእያንዳንዱ ተማሪ በዲፓርትመንት(አካዳሚክ) ክፍሉ ውስጥ ለአንድ ሰራተኛ አባል ይመደባል። የተመደበ አማካሪ(አድቫይዘር) ለተማሪው ለትምህርቱ እና ለሌሎች ማህበራዊ ጉዳዮች በማስተዋል ፣ በቅንነት እና በጥብቅ ተገቢውን መመሪያ እና ምክር ይሰጣል፡፡ ስለ አድቫይዘር ሌላ ምትጠይቀው አለ?"],
+        "context_set": "አዎ አለ"
+      },
+
+      {
+        "tag": "ስለ አድቫይዘር በይበልጥ",
+        "patterns": ["አዎ አለ?","አዎ","አለ","አለኝ","አዎ አለኝ","ብዙ አለኝ"],
+        "responses": ["እሺ ጠይቀኝ አድቫይዘር ስለ መገናኘት ወይስ ስለ መቀየር የቱን ልንገርህ?"],
+        "context_filter": "አዎ አለ"
+      },
+
+      {
+        "tag": "አድቫይዘር መገናኘት",
+        "patterns": ["አድቫይዘሬን እንዴት ማግኝት አችላለሁ","ስለ መገናኘት","አማካሪየን ወይም አድቫይዘሬን የምንገናኝበት መቼ ነው","ከአድቫይዘሬን ምን ያህል መገናኘት ኣለብን","ከመጀምርያ ግንኙነት ብኅላ አድቫይዘሬን አንዴት ማግኘት አችላለሁ","እንዴት ነው ከአድቫይዘሬ ምንገናኘው?","አድቫይዘሬን መቀየር እችላለሁ?","አድቫይዘሬን ላገኘው ካልቻልኩ ምን ማረግ ኣለብኝ","አድቫይዘሬን ልያግዘኝ ካልቻለ ምን ማድረግ እችላለሁ?"],
+        "responses": ["መጀመርያ ከተገናኙ ብኅላ ተማሪዎች ከአማካሪዎቻቸው ወይም ኣድቫይዘራቸው እየተነጋገሩ የሚገናኙበት ክፍለ ጊዜ መወሰን ይችላሉ።"]
+      },
+
+
+      {
+        "tag": "አድቫይዘር መቀየር",
+        "patterns": ["አድቫይዘሬን መቀየር እችላለሁ?","ስለ መቀየር","አድቫይዘሬን ላገኘው ካልቻልኩ ምን ማረግ ኣለብኝ","አድቫይዘሬን ልያግዘኝ ካልቻለ ምን ማድረግ እችላለሁ?"],
+        "responses": ["ተማሪዎች በዩኒቨርሲቲ ውስጥ የመመሪያ እና የምክር አገልግሎት ማግኘት ይችላሉ፡፡ የአማካሪዎቻቸው(አድቫይዘራቸው) ከሌለ ወይም ለውጥ በፈለግቡት ጊዜ ወደ የዲፓርትመንት ሃላፊ ማሳወቅ ይኖርባችዋል። እናም የነበረው አድቫይዘር የተማሪዎች ሪኮርድን በትክክል መስጠት ይኖርበታል፡፡"]
+      },
+
+
+     {
+        "tag": "አድቫይዘር መመደብ",
+        "patterns": ["በትምህርት በጣም እየተቸገርኩ ነው፤ ሚረዳኝ ማግኘት እችላለሁ?","በትምህርት በጣም ከተቸገርኩ የሚረዳኝ ማግኘት እችላለሁ?","ትምህርት እየከበደኝ ነው ምን ማድረግ አለብኝ?","ትምህርት ከከበደኝ ምን አደርጋለሁ?","ትምህርት ካስቸገረኝ ምን ማድረግ አለብኝ?","በትምህርት በጣም እየተቸገርኩ ነው፤ ሚያግዘኝ ማግኘት እችላለሁ?"],
+        "responses": ["አድቫይዘር ሊረዳቹ ይችላል።እናም መጀመሪያ ከአድቫይዘራቹ በይበልጥ መነጋገር አለባቹ፤ እናም ከአስተማሪዎቻቹ፣ከዲፓርትመንት ኅላፊም መመካከር ትችላላቹ።"]
+      },
+
+      {
+        "tag": "የስራ ጊዜ",
+        "patterns": ["የስራ ሰዓቶች ንገረኝ","መቼ ነው የስራ ሰዓት ወይም ኦፊስ ክፍት የሚሆነው?","የቢሮ ሰዓት መቼ ነው?"],
+        "responses": ["የስራ ሰዓቶች ከሰኞ እስከ ዓርብ፣ ጥዋት ከ 2:30-6:30 ከሰዓት ደሞ ከ 8:30-11:30 ነው። ቅዳሜ እንደአስፈላጊነቱ ሁኖ ግን ግዴታ ኣደለም።"]
+      },    
+    
+      {
+        "tag": "ቅድመ ምህንድስና",
+        "patterns": ["ቅድመ ምህንድስና (ፕሪ ኢንጂነሪንግ) ማለት ምን ማለት ነው","ቅድመ ምህንድስና ምንድ ነው?","ስለ ፕሪ ምህንድስና ንገረኝ?","ፕሪ ምህንድስና ማለት ምን ማለት ነው?","ፕሪ ምህንድስና ምንድ ነው?"],
+        "responses": ["ቅድመ ምህንድስና ተማሪዎችን፣ መሠረታዊ የምህንድስና ትምህርቶችን እንዲወስዱ እና ትምህርቷቸው ከጨረሱ በኋላ ተማሪዎች ለዲፓርትመንት ያላቸውን ፍላጎት ለመመርመር እንዲረዳቸው የሚረዳ የኢንጂነሪንግ ቅድመ ዝግጅት ክፍል ነው፡፡ በተጨማሪ ኢንጂነሪንግ ከማድረግዎ በፊት መወሰድ ያለበት ጥናት ወይም ትምህርቶች ማለት ነው ፡፡"]
+      },
+
+      {
+        "tag": "ጠቅላላ እውቀት",
+        "patterns": ["ኤል ኤች ሩም ማለት ምን ማለት ነው?","ኤል ኤች ሩም ምንድ ነው?","ኤል ኤች ሃል ምንድ ነው?","ኤል ኤች ሃል ማለት ምን ማለት ነው"],
+        "responses": ["ተማሪዎች በደረጃዎች የተደረደረ  ለሚቀመጡበት እና ለትምህርት የተሰራ ልዩ ክፍል ነው። "]
+      },
+
+      {
+        "tag": "የግል አስተማሪ",
+        "patterns": ["የግል አስተማሪ መቕጠር ይቻላልን?","የግል አስተማሪ ሊኖረኝ ይችላል?","የግል አስተማሪ መቕጠር ይቻላል?","የግል አስተማሪ ይፈቀዳል?"],
+        "responses": ["በዩኒቨርስቲው የግል አስተማሪ መመደብ አይቻልም ለሁሉም ተማሪዎች በተሰጣቸው ክፍለ ጊዜ እንዲያስተምሩ ነው የሚፈቀደው፤ ነገር ግን በራሳቹ ወጪ የሚያጠናቹ ካገኛቹ ደስተኛ ነው ዩኒቨርስቲው።"]
+      },
+    
+      {
+        "tag": "ክሬዲት ሃወር",
+        "patterns": ["በሰሚስተር ስንት ሰዓት ነው ሚፈቀደው?","በሰሚስተር ስንት ክሬዲት ሃወር ይፈቀዳል?","በሰሚስተር ስንት ክሬዲት ሃወር ነው ሚፈቀደው?","በሰሚስተር ስንት ክሬዲት ነው ሚፈቀደው?","በሰሚስተር ስንት ሰዓት ነው መውሰድ የሚቻለው?","በሰሚስተር ስንት ሰዓት ነው መማር የሚቻለው?"],
+        "responses": ["የመደበኛ(ሬጉላር) ተማሪዎች ቢያንስ የECTS 25 ወይም የክሪዲት ሰዓታት(ሃወርስ) 15 መሆን አለባቸው በእያንዳንዱ ሴሚስተር። በትምህርቱ ካታሎግ / በስርአተ ትምህርት ውስጥ ካልተገለጸ በስተቀር ከፍተኛው ጭነት(ማክሲማም ሎድ) ከ 32 ECTS ወይም ከ 19 ክሬዲት ሰዓታት መብለጥ የለበትም ፡፡"]
+      },
+ 
+      {
+        "tag": "ደካማ ውጤት",
+        "patterns": ["ትምህርቴን ጥሩ ውጤት ካላመጣሁ ምንድ ነው?","የትምህርት ውጤቴን ዝቅተኛ ከሆነ ምን ኣደርጋለሁ?","በኮርስ የተማርኩት ጥሩ ውጤት ካላስመጣሁ ምን ይከሰታል?","በኮርስ የተማርኩት ጥሩ ውጤት ካላስመዘገብኩ ምንድ ነው ሚሆነው?","በኮርስ የተማርኩት ውጤቴን FX ከሆነ ምንድ ነው ሚሆነው?","በኮርስ የተማርኩት ውጤቴን F ከሆነ ምንድ ነው ማደርገው?"],
+        "responses": ["FX ውጤት ያመጣ ተማሪ ተጨማሪ ፈተና ይወስዳል እናም ያመጣው ውጤት ይመዘገበለታል፣ የ F ውጤት ያስመዘገቡ ደግሞ ያ F ያመጡት ትምህርቱን ይደግማሉ እናም ያመጡት ውጤት ይመዘገብላቿል ነገር ግን ከ C በላይ ውጤት ብያመጡም C ነው ሚመዘገበው።"]
+      },
+
+      {
+        "tag": "ትምህርት መከታተል",
+        "patterns":["ምንያህል ክላስ መማር ኣለብኝ?","ምን ያህል ክላስ መማር ኣለብኝ?","ስንት ክፍል መማር ኣለብኝ በሰሚስተር ውጤት ለማስመዝገብ?","ስንት ክፍል መማር ኣለብኝ ፈተና ለመፈተን?","ምን ያህል የትምህርት ክፍል መማር አለብኝ በ1 ሰሚስተር?","ምን ያህል የትምህርት ክፍል መማር አለብኝ በአንድ ሰሚስተር?","ስንት ክላስ መገኘት አለብኝ ትምህርቴን ለመቀጠል?"],
+        "responses": ["አንድ ተማሪ ሁሉንም ትምህርቶች፣ ላቦራቶሪ እና ተግባራዊ ትምህርቶች እንዲሁም የመስክ ሥራዎችን መከታተል ይጠበቅበታል ፣ የተሰጠውን ኮርስ ውጤት ለማግኘት ተማሪዎች ቢያንስ 90% የሚሆኑትን የተያዙ ትምህርቶች እንዲማሩ ይጠበቅባቸዋል። ከ 10% በላይ መገኘት ያልቻለ ተማሪ “IA” (ያልተሟላ ተገኝነት) ውጤት ይሰጠዋል እንዲሁም ክፍሎችን ለመከታተል ባለመምጣቱ ለዲፓርትመንቱ / ፕሮግራሙ ተቀባይነት ያላቸው ምክንያቶች እንዲያቀርብ ይጠየቃል።"]
+      },
+      
+      {
+        "tag": "ግሬድ",
+        "patterns":["ግሬዴን እንዴት ነው ሚሰራው?","የትምህርት ውጤቴን እንዴት ነው ሚሰላው?","የትምህርት ውጤቴን እንዴት ነው ሚሰራው?","ግሬድ እንዴት ነው ሚሰራው?","የትምህርት ውጤት እንዴት ነው ካልኩሌት ሚደረገው?","ግሬድ እንዴት ነው ካልኩሌት ሚደረገው?"],
+        "responses": ["የሰሜስተር ውጤት ነጥብ አማካይ (SGPA) የሚወሰነው በሰሚስተር ውስጥ የተገኘውን ውጤት ነጥቦችን በዚያ ሴሚስተር ውስጥ በተማሩት ሰዓቶች ብዛት(ክሪዲት ሃወርስ) በመካፈል ነው ፡፡ የጠቅላላ ድምር ውጤት ነጥብ (CGPA) የሚወሰነው  ጠቅላላ ውጤት በተገኘው የክፍል ነጥቦች ድምር ሙሉ በሙሉ በተወሰደው ሰዓቶች ብዛት(ክሪዲት ሃወርስ) ሲካፈል ነው።"]
+      },
+      
+      {
+        "tag": "ትርፍ ጊዜ",
+        "patterns":["ምህንድስና ስናጠና ትርፍ ጊዜ ሊኖረን ይችላል ?","ምህንድስና እየተማርኩ መዝናናት እችላለሁ?","ምህንድስና እየጠናሁ መዝናናት እችላለሁ?","ምህንድስና እየተማርኩ በተለያዩ መስክ መሳተፍ ይቻላልን?"],
+        "responses": ["አዎ! ስለዚ እንዳይጨነቁ መሐንዲሶች በስፖርት ፣ በሙዚቃ ቡድኖች እና በሌሎች ከመደበኛ ትምህርት ውጭ እንቅስቃሴዎች ይሳተፋሉ ፡፡"]
+      },
+      {
+        "tag": "ፕሪ ኢንጂነሪንግ ጥቅም",
+        "patterns":["የመጀምርያ አመት ትምህርት ምን ያህል ይጠቅማል ለዲፓርትመንት የምገባው?","የመጀምርያ አመት ትምህርት ምን ያህል ይጠቅማል?","የመጀምርያ አመት ትምህርት ምንድ ነው ጥቅሙ?","የመጀምርያ አመት ጥናት ምን ያህል ጠቃሚ ነው ለምማረው ዲፓርትመንት?","የመጀመርያ ቅድመ ምህንድስና ትምህርት ምን ይጠቅማል?","የፕሪ ምህንድስና ትምህርት ምን ይጠቅመኛል?","ፕሪ ምህንድስና ትምህርት ምን ይጠቅማል?","የፕሪ ምህንድስና ጥናት ለምን ያስፈልጋል?"],
+        "responses": ["ተማሪዎች የምህንድስና ማስተዋወቂያ ትምህርትን ፣ መሰረታዊ የሳይንስ ኮርሶችን ፣ የቋንቋ ትምህርቶችን ፣ የኮምፒተር ትምህርቶችን (ኮርስ) እና የዩኒቨርሲቲ የጋራ ኮርሶችን የሚያጠቃልሉ የምህንድስና መሰረታዊ ነገሮችን በቅድመ ምህንድስና (ፕሪ ኢንጂነሪንግ) መውሰድ አለባቸው ፡፡ እነዚህ ትምህርቶች የምህንድስና ማስተዋወቂያ ኮርሶችን ጨምሮ የተማሪዎችን አጠቃላይ ትምህርት ሰፋ ለማድረግ ይረዳሉ እንዲሁም ተማሪዎች የተለያዩ የመማር ማስተማር ስራዎች ጣዕም እንዲያገኙ ያስችላቸዋል ፡፡ ተማሪዎች በዲፓርትመንት ምርጫ ወቅት በእውቀት ምርጫ እንዲወስኑ የሚረዳቸውን ፣እነዚህን ኮርሶች በማጥናት ጥንካሬዎቻቸውን እና ፍላጎታቸውን በተሻለ ሊረዱ ይችላሉ ፡፡"]
+      },
+      
+      {
+        "tag": "ኢንጂነሪንግ ለመግባት",
+        "patterns":["ወደ የምህንድስና ፋኩልቲ ለመግባት ምን አይነት መመዘኛዎች ያስፈልጉኛል?","ወደ የምህንድስና ፋካሊቲ ለመግባት ምን ማድረግ አለብኝ?","ወደ የምህንድስና ክፍል ለመግባት ምን መስፈርት ነው ሚያስፈልገው","የኢንጂነሪንግ ፋካሊቲ ለመመዝገብ ምን አይነት መመዘኛዎች ያስፈልጉኛል?","የምህንድስና ፋካሊቲ ለመግባት ምን አይነት መመዘኛዎች ያስፈልጉኛል?","የምህንድስና ዲፓርትመንት ለመመዝገብ ምን ያስፈልጋል?","ምህንድስና ዲፓርትመንት ለመመዝገብ የሚያስፈልጉ ነገሮች?","የምህንድስና ዲፓርትመንት ለመግባት ምን ያስፈልጋል?","በምህንድስና ለመመዝገብ የሚያስፈልጉ ንገረኝ?"],
+        "responses": ["የቅድመ ምረቃ መርሃ ግብሮች ምዝገባ የመሰናዶ ትምህርት ቤት ፕሮግራሙን ማጠናቀቅን የሚገልፅ ድጋፍ እና ከኢትዮጵያ ከፍተኛ ትምህርት መግቢያ የምስክር ወረቀት (EHEECE) ውስጥ አስፈላጊውን የማለፊያ ነጥብን ያገኙት ላይ የተመሠረተ ነው ፡፡ EIT-M ተመራቂዎችን በትምህርት ሚኒስቴር (MoE) እና / ወይም በዩኒቨርሲቲው በተመደበው የመግቢያ ብቃት ምዘና የሚያሟሉ በኢንጂነሪንግ ክፍለ ትምህርት ለማስተማርና ለማሠልጠን ተማሪዎችን ይቀበላል።"]
+      },
+      
+      {
+        "tag": "ምህንድስና ዲፓርትመንቶች",
+        "patterns":["በመቐለ ዩኒቨርሲቲ የኢንጂነሪንግ ዲፓርትመንቶች ዘርዝርልኝ","የመቐለ ዩኒቨርሲቲ ኢንጂነሪንግ ዲፓርትመንቶች?","በመቐለ ዩኒቨርሲቲ ኢንጂነሪንግ ዲፓርትመንቶች ሚሰጡ ንገረኝ","በመቐለ ኢ ኣይ ቲ ኤም የሚሰጡ ፕሮግራሞች ምንድ ናቸው?","በመቀለ ዩኒቨርሲቲ ያሉት የኢንጂነሪንግ ዲፓርትመንት ንገረኝ","በመቐለ ዩኒቨርሲቲ የሚሰጡ የምህንድስና ፕሮግራሞች ንገረኝ"],
+        "responses": ["የመቐለ ዩኒቨርሲቲ EIT-M የአካዳሚ የመጀመሪያ ድግሪ መርሃግብሮች-1. ሥነ-ህንፃ ዲዛይን(አርክቴክቸር) 2. የከተማ ፕላን እና ዲዛይን(አርባን ፕላኒንግና ዲዛይን) 3. ሲቪል ኢንጂነሪንግ 4. የውሃ ሀብት እና የመስኖ ኢንጂነሪንግ(ወተር ሪሶርስና ኢሪጌሽን ኢንጂነሪንግ) 5. ኤሌክትሪክ እና ኮምፒተር ኢንጂነሪንግ(ኤሌክትሪካልና ኮምፒተር ኢንጂነሪንግ) 6. መካኒካዊ ምህንድስና(መካኒካል ኢንጂነሪንግ) 7. የኢንዱስትሪ ኢንጂነሪንግ(ኢንዳስትሪያል ኢንጂነሪንግ) 8. ኬሚካዊ ኢንጂነሪንግ(ኬሚካል ኢንጂነሪንግ) 9. የኮምፒተር ሳይንስ 10. የመረጃ ሥርዓቶች(ኢንፎርሜሽን ስይስተም) 11. የሶፍትዌር ኢንጂነሪንግ ፡፡"]
+      },
+     
+      {
+        "tag": "በትምህርት ምክንያት መባረር",
+        "patterns":["በትምህርት ውጤት ምክንያት ከተባረርኩ ዲጋሜ መመዝገብ ይቻላል?","በትምህርት ውጤት ምክንያት ከተባረርኩ ምንድ ነው?","በትምህርት ውጤት ምክንያት ከተባረርኩ ምን አደርጋለሁ","በትምህርት ውጤት ምክንያት ከተባረርኩ ምን ማድረግ አለብኝ?","በትምህርት ውጤት የተባረረ ምን ያደርጋል?","በውጤቴ ምክንያት ትምህርት ለምድገም ከተፈቀድልኝ ምንድ ነው ማጠናው?","በትምህርት ምክንያት ድጋሜ ለመማር የተፈቀድለት ተማሪ ሁሉም ኮርሶች ነው የሚማረው?","በትምህርት ምክንያት ድጋሜ ለመማር የተፈቀድለት ተማሪ ሁሉም ኮርሶች ነው የሚደግመው?","በትምህርት ምክንያት ድጋሜ ለመማር የተፈቀድለት ተማሪ ሁሉም ትምህርት ነው የሚደግመው?"],
+        "responses": ["በትምህርታዊ ምክንያቶች የተባረረ እና መልሶ መመዝገብ የተፈቀደለት ተማሪ ፣ ተማሪውን የተባረረበት ሴሚስተር እንደገና ይደግማል፤ እናም አካዴሚያዊ ጉድለት ያሳየበትን ትምህርት ብቻ እንዲመዘገብ ይፈቀድለታል።"]
+      },
+      
+      {
+        "tag": "መርሃ ግብሮች ፕሮግራም",
+        "patterns":["የዩኒቨርስቲው መርሀ ግብሮች የት ነው ሚገኘው?","የዩኒቨርስቲው የፕሮግራም ካላንደር የት ነው ሚገኘው?","የዩኒቨርስቲው የፕሮግራም የግዜ ሰሌዳ የት ማየት እችላለሁ?","የዩኒቨርስቲው ፕሮግራሞች የት ነው ሚገኘው?","የዩኒቨርስቲው መርሃ ግብሮች የሚያሳይ የት ነው ሚገኘው?","የዩኒቨርስቲው የፕሮግራሞች ካላንደር የት ነው ምከታተልው?","የዩኒቨርስቲው ካላንደር የት ነው ማየው?"],
+        "responses": ["በዩኒቨርስቲው ድህረገፅ በካላንደር(የቀን መቁጠርያ) የዓመቱ መርሃግብሮች ማየት ትችላላችሁ፡፡  http://www.mu.edu.et/index.php/academic/academic-program/academic-calendar"]
+      },
+      
+      {
+        "tag": "የግዜ ሰሌዳ መቀየር",
+        "patterns":["የኮርስ የጊዜ ሰሌዳዬን መለወጥ እችላለሁ?","የክላስ ክፍለ ጊዜ መቀየር ይቻላል?","የክላስ ወይም የፈተና ፕሮግራም ማስቀየር ይቻላል?","የፈተና ፕሮግራም ከተደራረበብኝ መቀየር ይቻላል?","የፈተና ፕሮግራም ግጭት ካጋጠመ ምን ኣደርጋለሁ? ","የፈተና ፕሮግራም ክላሽ ካረገብኝ ምን ኣደርጋለሁ? ","የክላስ ፕሮግራም ክላሽ ካጋጠመ ምን ኣደርጋለሁ? ","የክፍለ ትምህርት ፕሮግራም ግጭት ካጋጠመ ምን ይደረጋል?","የክላስ ወይም የፈተና ፕሮግራም ክላሽ ከሆነብኝ ምን ኣደርጋለሁ?"],
+        "responses": ["ሁሉም ተማሪዎች በየክፍለ-ጊዜው በሚመዘገቡት፣ በሬጅስትራር በሚወጣ የክፍል የጊዜ ሰሌዳ መሠረት ትምህርቶቹን ማክበር እና በመደበኛነት መከታተል አለባቸው ፡፡ በእያንዳንዱ ሴሚስተር መጨረሻ እያንዳንዱ ተማሪዎች በሬጅስትራር እና በአመራር በተሰጣቸው የፈተና መርሃ ግብር መሠረት ፈተና መዘጋጀት አለባቸው። ኮርሶችን በመጨመር ምክንያት የትምህርት ፕሮግራም(የክላስ የጊዜ ሰሌዳ) ወይም የፈተና የጊዜ ሰሌዳ  ግጭቶች በሚከሰቱበት ጊዜ አንድ ተማሪ መርሐግብር ለያዘው ሬጅስትራር ጽ / ቤት ሪፖርት ማድረግ አለበት ፡፡ ስለዚህ ሬጅስትራሩ ተቀባይነት ያላቸውን ምክንያቶች ተመልክቶ ውሳኔ ያስተላልፋል ፡፡"]
+      },
+      
+      {
+        "tag": "ኮርስ መጣልና መጨመር",
+        "patterns":["የኮርስ መጣል ወይም መጨመር ቀነ-ገደቡ መቼ ነው?","ኮርስ መጣልና መጨመር ይቻላል?","ስለ ኮርስ አድና ድሮፕ ንገረኝ?","አድና ድሮፕ ምንድ ነው?","ኮርስ መጣልና መጨመር ምንድ ነው?","ስለ ኮርስ መጣልና መጨመር ንገረኝ","ኮርስ መጣልና መጨመር መቼ ነው ሚደረገው?","ኮርስ መጣልና መጨመር መቼ ነው ሚፈቀደው?","ኮርስ መጣልና መጨመር ይፈቀዳል?","ኮርስ የመጣልና መጨመር ቀነ ገደብ መቼ ነው?"],          
+        "responses": ["ኮርሶችን መጨመር እና መጣል እንደ የዩኒቨርሲቲው የአካዳሚክ የቀን መቁጠሪያ ተደርጎ ይወሰዳል እናም እስከመቼ እንደተፈቀደ ለማየት በዩኒቨርስቲ ድህረገፁ በካላንደር(የቀን መቁጠርያ) ማየት ትችላላችሁ፡፡ የትምህርት ኮርሶችን መጨመር እና መጣል ከአካዴሚክ አማካሪ(አድቫይዘር) ወይም ከኮርስ ቡድን መሪ ፣ ወይም ዲፓርትመንት ኃላፊ / ፕሮግራም አስተባባሪ ጋር በመመካከር በተማሪው የአመቱ የትምህርት ቀን መቁጠሪያ ላይ ቀነ ገደቡ ከመድረሱ በፊት ይጠናቀቃል። ተማሪዎች ፕሮግራሙን / ዲፓርትመንቱን / ትምህርቱን እንዳይቀጥሉ የሚከለክሉ ምክንያቶች ካሉ ኮርሶችን እንዲጥሉ ሊገደዱ ይችላሉ ፡፡ ለምሳሌ ቅድምያ የሚሰጥ ኮርስ ውጤት F ከነበረ የሱን ተከታታይ የሆነ ትምህርት ዓይነት(ኮርሶች) እንድወሰድ አይፈቀድም።"]
+      },
+     
+      {
+        "tag": "ኮርስ መድገም",  
+        "patterns":["ኮርስ ድጋሜ መውሰድ ይቻላል?","ኮርስ በምደግምበት ጊዜ ከመጀመርያ ይለያያል?","ኮርስ መድገም ይቻላልን?","ኮርስ መድገም ይቻላል?","ኮርስ መድገም ይፈቀዳል?","ስለ ኮርስ መድገም ንገረኝ?","ድጋሜ ኮርስ ከተማርኩ ምን ይሆናል ውጤቴን?"],
+        "responses": ["ውጤት ለመቀየር ወይም ለመሻሻል ኮርስ መድገም ኣይፈቀድም። ነገር ግን በ F ውጤት ምክንያት ከሆነ፣ ያ F ያመጡት ትምህርቱን ይደግማሉ እናም ያመጡት ውጤት ይመዘገብላቿል ነገር ግን ከ C በላይ ውጤት ብያመጡም C ነው የሚመዘገበው። በሌላ ምክንያት ከሆነ ግን ምክንያታቸው ኣስረድተው ተጨባጭ ድጋፍ ደብዳቤ ካለው ተማሪው ያመጣው ውጤት ይመዘገብለታል።"]
+      },
+      
+      {
+        "tag": "ማስጠንቀቅያ ውጤት",
+        "patterns":["የአካዳሚክ ትምህርቴን በማስጠንቀቂያ ካለፍኩ ምን ማድረግ ኣለብኝ ","የአካዳሚክ ትምህርቴን ማስጠንቀቅያ ከሆን ምን ኣደርጋለሁ?","የአካዳሚክ ትምህርቴን ዋርኒንግ ላይ ከሆን ምን ማድረግ ኣለብኝ?","የአካዳሚክ ትምህርቴን በማስጠንቀቂያ ከሆነ ምንድ ነው?","የትምህርቴን ውጤት ዋርኒንግ ከሆነ ምንድ ነው? ","ውጤት ዋርኒንግ ከሆነ ምንድ ነው? ","የትምህርት ውጤቴን ዋርኒንግ ከሆነ ምንድ ነው? ","ዋርኒንግ ውጤት ምንድ ነው? ","የአካዳሚክ ትምህርቴን በዋርኒንግ ወይም ማስጠንቀቅያ ከሆን ለማን ኣማክራለሁ?"],
+        "responses": ["አንድ ተማሪ የአካዳሚክ ጥናቱን  የሙከራ ጊዜ ወይም ማስጠንቀቂያ ከሆነ ፣ ከአካዴሚ አማካሪው ጋር ቀጠሮ መያዝ አለበት። አንድ ላይ ሆነው ፣ ትምህርትን በመመለስ ሂደት ወደነበረበት እንዲመለስ እርስዎን ለመርዳት የኮርስ እቅድ አልፈው እና ድጋፍዎችን ያገኛሉ ፡፡"]
+      },
+      
+      {
+        "tag": "ፈተና ኣለመፈተን",
+        "patterns":["ፈተና ካመለጠኝ ምን አደርጋለሁ?","ፈተና ካለፈኝ ምን ኣደርጋለሁ?","የሆነ ፈተና ካለፈኝ ምን አደርጋለሁ?","አጭር ፈተና ካለፈኝ ምን አደርጋለሁ?","ፈተና ካልተፈተንኩ ምን ማድረግ ኣለብኝ?","የመጨረሻ ፈተና ካልተፈተንኩ ለማን ነው ሪፖርት ማደርገው?","ፋይናል ፈተና ካለፈኝ ለማን ነው ማሳውቀው?","ፋይናል ፈተና ካለፈኝ ምን አደርጋለሁ?","አጫጭር ፈተና፣ አሳይንመንትና ፋይናል ፈተና ካለፈኝ ምን ማድረግ አለብኝ?"],
+        "responses": ["ተማሪው በሆስፒታል መተኛት ወይም አደጋዎች ፣ ሥነ ልቦናዊ ችግሮች ፣ በወሊድ ምክንያት ወዘተ ያሉ ሁኔታዎችን በፈተና ካልነበረ ፈተናው ለመፈተን ከቀጣዩ ሴሚስተር ትምህርት ከጀመረ በኋላ በአንድ ሳምንት ውስጥ ከሚከተሉት ሰነዶች አንዱን ማቅረብ አለበት-1. ለሕክምና እና ለሥነ ልቦና ችግሮች የህክምና የምስክር ወረቀቶች ፣ 2. ከሌሎች ማህበራዊ ችግሮች በፍርድ ቤት የተረጋገጠ ሰነዶች; 3. በሌሎች ምክንያቶች የተነሳ ከሆነ ከሚመለከታቸው የመንግሥት ቢሮዎች የተረጋገጠ ሰነድ፡፡"]
+      },
+      
+      {
+        "tag": "ፈተና ማራዘም",
+        "patterns":["ፈተና ማራዘም ይቻላል?","የፈተና ፕሮግራም ማራዘም እችላለሁ?","የፈተና ጊዜ ሰሌዳ ማራዘም ይቻላል?","የፈተና ጊዜ ማራዘም ይቻላል?"],
+        "responses": ["ፈተናው ለማራዘም ተማሪው ኣስፈላጊ ማስረጃ ካመጣ ብቻ ነው። ለምሳሌ 1. ለሕክምና እና ለሥነ ልቦና ችግሮች የህክምና የምስክር ወረቀቶች ፣ 2. ከሌሎች ማህበራዊ ችግሮች በፍርድ ቤት የተረጋገጠ ሰነዶች 3. በሌሎች ምክንያቶች የተነሳ ከሆነ ከሚመለከታቸው የመንግሥት ቢሮዎች የተረጋገጠ ሰነድ፡፡"]
+      },
+      
+      {
+        "tag": "በፈተና ወቅት መታመም",
+        "patterns":["በፈተና ውስጥ ከታመምኩ ምን አደርጋለሁ?","ፈተና ወቅጥ ላይ ካመምኩ ምን ማድረግ አለብኝ?","ፈተና ጊዜ ከታመምኩ ምን አደርጋለሁ?","በፈተና ወቅት ላይ ከታመምኩ ምን ማድረግ ኣለብኝ?","በፈተና ጊዜ ከታመምኩ ለማን አሳውቃለሁ"],
+        "responses": ["ተማሪው በርግጠኝነት እንደታመመ የህክምና የምስክር ወረቀቶች ማምጣት አለበት። ከዛ ኣስተማሪው ትክክለኛ ማስረጃ ከሆነ ከተማሪውጋ የሚፈትነው ጊዜ ይነጋገራሉ። በፈተና ክፍለ ጊዜ ከሆነ ደሞ ለፈታኙ ማሳወቅ ይኖርበታል ከዛ ሁሉም የህክምና ማስረጃ ማምጣት ይጠበቅበታል።"]
+      },          
+
+    
+      {
+        "tag":"ፈተና ከተራዘመ",
+        "patterns":["ፈተናየን ካራዘምኩት መቼ ነው ምፈተነው?","ፈተና ተራዝሞ ከነበረ መቸ ነው መፈተን ያለብኝ?","ፈተና ከተራዘመልኝ ብኋላ እንዴት ነው ምፈተነው?","ፈተና ካለፈኝ እናም ኣሳምኝ ምክንያት ካመጣሁ ብኋላ መቼ ነው ምፈተነው?","ፈተና ካለፈኝ እናም ኣሳምኝ ምክንያት ካቀረብኩ ብኋላ መቼ ነው ምፈተነው?"],
+        "responses": ["ተማሪዎች ፈተናው በአሳምኝ ምክንያት ካራዘሙት ወይም ካልተፈተኑት፣ ከአስተማሪው ጋ በመነጋገር መቼ እንደሚፈተኑ መወሰን ይችላሉ።"]
+      },     
+    
+      {
+        "tag":"አላሟላም ውጤት",
+        "patterns":["ኣላሟላም ውጤት ሚሰጠኝ ምን ከሆነ ነው?","ኢንኮምፕሊት ውጤት ማገኘው መቼ ነው?","ኢንኮምፕሊት ውጤት የሚሰጠኝ ምን ካደረግኩ ነው?","አላሟላም ማለት ምን ማለት ነው?","አላሟላም ምን ማለት ነው?","ኢንኮምፕሊት ምን ማለት ነው?","ኢንኮምፕሊት ምንድ ነው?","I  ውጤት ምንድ ነው?"],
+        "responses": ["አንድ አስተማሪ ተማሪውን የትምህርት ክፍሉን በሚገባ ካልተከታተለ፣ እና ትምህርቱን በሴሜስተር ማጠናቀቅ ካልቻለ፣ ፈተና ሙሉ በሙሉ ካልተፈተነ ወይም አሳይንመንቶች ካላስረከበ ተማሪው አላሟላም (I) ውጤት ይሰጠዋል ፡፡"]
+      },     
+    
+      {
+        "tag":"የምዝገባ ሂደት",
+        "patterns":["ምዝገባ እንዴት ነው ምመዘገበው?","የምዝገባ ሂደት እንዴት ነው?","የምዝገባ ቅደም ተከተል ምንድ ናቸው?","እንዴት ነው መመዝገብ ምችለው?","እንዴት ነው ምመዘገበው?","የምዝገባ ቅደም ተከተል ንገረኝ?","የምዝገባ ሂደት ንገረኝ?","ለምዝገባ ምን ያስፈልጋል?","ለምዝገባ ምን ማቅረብ አለብኝ?","ለመመዝገብ ምን ያስፈልጋል?"],
+        "responses": ["ተማሪዎች መመዝገብ የሚችሉት በሬጅስትራር በወጣ የጊዜ ሰሌዳ መሰረት ብቻ ነው፤ እናም የተማሪዎችን ምደባ እና ምዝገባ በትምህርት ሚኒስቴር ለተመደቡ ወይም በዩኒቨርሲቲው ተቀባይነት ላላቸው ተማሪዎች ብቻ ነው ሚካሄደው፡፡ እናም የምዝገባ ሂደቶቹ እንደሚከተለው ነው፤ 1. አንድ እጩ ተማሪ ተቀባይነት እና ምደባን ተከትሎ በትምህርት ዓመቱ መጀመሪያ ላይ ለመደበኛ ጥናቱ መመዝገብ አለበት፡፡ 2. የተማሪው ፋይል በትምህርት ላይ እንዳለ ለማሳወቅ እያንዳንዱ ተማሪ በእያንዳንዱ ሴሚስተር መጀመሪያ መመዝገብ አለበት፡፡ በዚህ ሕግ ከፕሮግራሙ በተጠቀሰው ጊዜ ውስጥ በይፋ የወጣው ማስረጃ ከሌለው ወይም ተቀባይነት ካልገኘ ተማሪው ከፕሮግራሙ እንደ ወጣ ተደርጎ ይቆጠራል። 3. እያንዳንዱ ተማሪ ምዝገባውን በአካል መገኘት አለበት፡፡ 4. ለኮርሱ ምዝገባ የሚከናወነው ከዲፓርትመንቱ አማካሪ ጋር በመመካከር ነው፡፡ 5. አንድ ተማሪ የምዝገባ ወረቀቱን በኦንላይን ላይ ለሬጅስትራር ሲያስመዘግብ ወይም የሬጅስትራር ማህተም በይፋዊ ምዝገባ ወረቀት ላይ ሲቀመጥ ምዝገባው እንደ ተጠናቀቀ ይቆጠራል።"]
+      },     
+    
+      {
+        "tag":"ምዝገባ ችግር",
+        "patterns":["የምዝገባ ችግር ካለብኝ ምን አደርጋለሁ?","ምዝገባ ላይ ችግር ካጋጠመኝ ለማን አሳውቃለሁ","በምዝገባ ጊዜ መመዝገብ ካልቻልኩ ምን ማድረግ አለብኝ?","በምዝገባ ጊዜ ችግር ካጋጠመኝ ምንድ ነው ማደርገው?","በምዝገባ ጊዜ ችግር ካጋጠመኝ ምን አደርጋለሁ?"],
+        "responses": ["አንድ ተማሪ የምዝገባ ችግር ካለው መጀመርያ ከአድቫይዘሩ ተነጋግሮ ለዲፓርትመንት ኅላፊ እናም ለሬጅስትራር ማሳወቅ ይኖርበታል።"]
+      },     
+    
+      {
+        "tag":"ዳግም ምዝገባ",
+        "patterns":["ድጋሜ ለመመዝገብ ምን ማድረግ አለብኝ?","ድጋሜ ለመመዝገብ ምን ያስፈልገኛል?","በድጋሜ እንዲመዘገብ የሚያስፈልጉ ነገሮች ንገረኝ?","ድጋሜ ለመመዝገብ ምን መከተል አለብኝ?","ዳግም ለመመዝገብ ምን አደርጋለሁ?","ዳግም ምዝገባ ምን ያስፈልጋል?","ድጋሜ ለመመዝገብ የሚያስፈልጉ ንገረኝ?", "ድጋሜ ለመመዝገብ ምን ያስፈልጋል?"],
+        "responses": ["ተማሪዎች ድጋሜ ለመመዝገብ የሚከተሉትን መምርያዎች መከተል ኣለባቸው 1. ተማሪው በትክክል ስርዓት ተከትለው ከዩኒቨርሲቲው የለቀቀ(ዊዝድረው ያደረገ) ዳግም ለመመዝገብ ቅድሚያ ይሰጠዋል ፡፡ 2. ተማሪውን ለቀው የወጣ ወይም ትምህርቱን አቋርጦ የሄደበት ምክንያት ከተገቢው ተቋም ትክክለኛ ማስረጃ ካቀረበ እንደገና ምዝገባ ለማድረግ ብቁ ሊሆን ይችላል ፡፡ 3. በትምህርታዊ ምክንያቶች የተባረረ እና መልሶ መመዝገብ የተፈቀደለት ተማሪ ፣ ተማሪውን የተባረረበት ሴሚስተር እንደገና ይደግማል፡፡ 4. ዳግም ለመመዝገብ ተቀባይነት ያገኘ ተማሪ፣ አካዴሚያዊ ጉድለት ያሳየበትን ትምህርት ብቻ እንዲመዘገብ ይፈቀድለታል ፡፡5. ከ 90% በላይ ብቁ ተሳትፎ (አቴንዳንስ) ያለው ተማሪ፣ ድጋሜ እንዲመዘገብ ይፈቀድለታል ሆኖም ግን ከሴሚስተር ፈተና ሁለት ሳምንት በፊት መመዝገብ ኣለበት፡፡ 7. ከዩኒቨርሲቲ ከወጣ በኋላ ተማሪው ቢያንስ ከወጣበት አንድ ሴሚስተር በኋላ እንደገና ለመመዝገብ ማመልከቻ ማስገባት አለበት ፡፡"]
+      }, 
+    
+      {
+        "tag":"ዊዝ ድረው",
+        "patterns":["ዊዝድረው ማለት ምን ማለት ነው?","ዊዝድረው ምንድ ነው?","ስለ ዊዝድረው ንገረኝ","ዊዝድረው ምን ማለት ነው?","ስለ ዊዝድረው እስኪ ንገረኝ"],
+        "responses": ["ዊዝድረው(መልቀቅ) ማለት ስርዓተ ትምህርቱን በተለያየ ምክንያቶች መልቀቅ ወይም መተው ነው፡፡ ዊዝድረው የሚፈቀደው አሳማኝ ምክንያት ላለው ብቻ ነው።"]
+      },
+    
+     {
+        "tag":"የዊዝ ድረው ጊዜ",
+        "patterns":["የዊዝድረው ቀነገደቡ መቼ ነው?","ዊዝድረው መቼ ነው ሚደረገው?","ዊዝድረው የሚደረገው መቼ ነው?","የዊዝድረው ጊዜ ንገረኝ?","ዊዝድረው ማድረግ ይቻላል?"],
+        "responses": ["ዊዝድረው የሚፈቀደው አሳማኝ ምክንያት ላለው ነው። ነገር ግን ቀነ-ገደቡ መቼ እንደሆነ ለማወቅ ከፈለግክ በሬጂስትራር የወጣ የጊዜ ሰሌዳ መመልከት ይቻላል።"]
+      },
+    
+     {
+        "tag":"የተማሪዎች ጥቅማጥቅሞች",
+        "patterns":["ለተማሪዎች ምን ምን የሚያስፈልጉት ነገሮች አሉ?","ዩኒቨርስቲ ውስጥ ለተማሪዎች ምን ምን የሚያስፈልጉት ነገሮች አሉ?","ለተማሪዎች የሚያስፈልጉ በዩኒቨርስቲ ውስጥ ምን ኣሉ?","ዩኒቨርስቲ ውስጥ ለኛ ሚያስፈልግ ምን አለ?","ዩንቨርስቲ ለተማሪዎች ምን ያቀርባል?","ዩኒቨርስቲ ውስጥ ለተማሪዎች የተዘጋጁ ነገሮች ዘርዝርልኝ?","ዩኒቨርስቲ ውስጥ ለተማሪዎች የተዘጋጁ ምንድ ናቸው?","በዩኒቨርስቲ ውስጥ ለተማሪዎች ሚጠቅም ምን አለ?","በዩኒቨርስቲ ውስጥ ለተማሪዎች የተዘጋጁ ንገረኝ?","በዩኒቨርስቲ ውስጥ ለተማሪዎች የሚጠቀሙ ንገረኝ?"],
+        "responses": ["በዩንቨርስቲው ውስጥ ለተማሪዎች የተዘጋጁ ብዙ ነገሮች ኣሉ። ለምሳሌ 1. የትምህርት መመርያ ክፍሎች፣ኮምፒተሮች፣የኢንተርኔት አክሰስ፣የዕለት ዕለት ምግብ፣ መዝናኛዎችና የተለያዩ ነገሮች ያገኛሉ።"]
+      },
+      
+     {
+        "tag":"ዲፓርትመንት ልውውጥ",
+        "patterns":["ከአንድ ዲፓርትመንት ወደ ሌላ ዲፓርትመንት እንዴት መቀየር እችላለሁ?","ከአንድ ዲፓርትመንት ወደ ሌላ ዲፓርትመንት መቀየር ይቻላል?","ከአንድ ዲፓርትመንት ወደ ሌላ ዲፓርትመንት መቀያየር ይቻላል?","ከአንድ ዲፓርትመንት ወደ ሌላ ዲፓርትመንት ለመቀየር ምን ያስፈልጋል?","ከዲፓርትመንት ወደ ሌላ ዲፓርትመንት መቀየር ይቻላል?","ከአንድ ክፍለ ትምህርት ወደ ሌላ መቀየር ይቻላል?","ከዲፓርትመንት ወደ ሌላ ዲፓርትመንት እንዴት ነው ምቀይረው?","ከዲፓርትመንት ወደ ሌላ ዲፓርትመንት ለመቀየር የሚያስፈልጉ ንገረኝ?","ከዲፓርትመንት ወደ ሌላ ዲፓርትመንት ለመቀያየር የሚያስፈልጉ ንገረኝ?","ከዲፓርትመንት ወደ ሌላ ዲፓርትመንት መቀየር ፈልጌ ነበር?"],
+        "responses": ["የዩኒቨርሲቲ የአንደኛ አመት ተማሪዎች የመጀመሪያው ዓመት ሴሚስተር ከመጀመሩ በፊት በዩኒቨርሲቲው ውስጥ በአንድ ኮሌጅ ውስጥ ዲፓርትመንት ለመቀያየር ማመልከት ይችላሉ፤ ይህም ለማድረግ፡ 1. በኮሌጅ ውስጥ ከአንድ ክፍለ ትምህርት(ዲፓርትመንት) ወደ ሌላ እንዲዛወር የጠየቁ የመጀመሪያ ዓመት ተማሪዎች የላኪው እና የተቀባዩ ዲፓርትመንቶችን ፊርማ ማግኘት አለባቸው ፡፡ 2. በዩኒቨርሲቲው ውስጥ እንዲዛወር የሚጠይቁ ተማሪዎች ወደ ሌላ ዲፓርትመንት ከመዛወራቸው በፊት በመጀመሪያ በየራሳቸው ዲፓርትመንቶች መመዝገብ አለባቸው ፡፡ 3. የኮርሶች የመጨመር እና የመጣል ጊዜ ካለፈ በኋላ ማንኛውም የቅያሬ(ለውጥ) ማመልከቻዎች ማስተናገድ አይቻልም ፡፡ 5. ማንኛውም ተማሪ በዲፓርትመንት ውስጥ 50% ኮርሶችን ከወሰደ በኋላ እንዲዛወር አይፈቀድለትም ፡፡"]
+      },
+    
+     {
+        "tag":"ከዩኒቨርስቲ ወደ ዩኒቨርስቲ መቀየር",
+        "patterns":["ከአንድ ዩኒቨርስቲ ወደ ሌላ ዩንቨርስቲ እንዴት መለወጥ እችላለሁ?","ከአንድ ዩኒቨርስቲ ወደ ሌላ ዩንቨርስቲ እንዴት መቀየር ይቻላል?","ከአንድ ዩኒቨርስቲ ወደ ሌላ ዩንቨርስቲ መቀየር ይቻላልን?","ከዩኒቨርስቲ ወደ ሌላ ዩንቨርስቲ መቀየር ይቻላል?","ከዩኒቨርስቲ ወደ ሌላ ዩንቨርስቲ መቀየር እችላለሁ?"],
+        "responses": ["መቀየር ይቻላል ነገር ግን የሚከተሉትን ነገሮች ሟሟላት ኣለበት፦ 1. አንድ ተማሪ ከባድ የጤና ችግር (መጥፎ የጤና ሁኔታ) ምክንያት ካለው  ዩኒቨርስቲው ሊቀበለው ይችላል፤ ነገር ግን በሕክምና ቦርድ የተሰጠ የምስክር ወረቀት የድጋፍ ደብዳቤ የቤተሰብ እንክብካቤ እንድሚያስፈልገው ፣ ወይም ዩኒቨርሲቲው ተቀባይነት እንዳገኘ የሚያደርጋቸው ሌሎች ድጋፍ ደብዳቤ ማቅረብ አለበት፡፡ 2. ወደ ዩኒቨርስቲ ዝውውር ለማስገባት የሚያመለክተው ተማሪ በኢትዮጵያ ከሚገኙት የመንግስት ዩኒቨርሲቲዎች ውስጥ የተመዘገበ መሆን አለበት። 3. ማንኛውም የዝውውር ማረጋገጫ የመጨረሻ ይሆናል ተብሎ የሚወሰድ ከሆነ አመልካቹ (ተማሪው) ከተመዘገበበት የቀድሞው ዩኒቨርሲቲ በትክክል(ኦፊሻላዊ) መዝገብ ካወጣ ብቻ ነው። 4. ከማንኛውም መንግስታዊ ወይም ግላዊ ዩኒቨርሲቲ ወይም በዩኒቨርሲቲ ውስጥ ካሉ ማንኛውም መርሃ ግብሮች የተባረረ ተማሪ በዩኒቨርሲቲው ውስጥ ወደ ማንኛውም ፕሮግራም እንዲዛወር አይፍቅድለትም።"]
+      },    
+    
+     {
+        "tag":"ውጤት ማየት",
+        "patterns":["ውጤቶቼን እንዴት ማየት እችላለሁ?","የትምህርት ውጤቴን እንዴት አያለሁ?","ግሬድ እንዴት ነው ሚታየው?","ውጤት እንዴት ነው ሚታየው?","ግሬድ የትነው ማየው?","ግሬድ እንዴት ነው ማየው?","ግሬድ እንዴት ይታያል?","ውጤቴን እንዴት ነው ማየው?"],
+        "responses": ["በዩኒቨርስቲው e-student ድህረገፅ ማየት ትችላለህ። http://www.mymu.edu.et/"]
+      }
+   ]
+}

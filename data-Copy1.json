@@ -1,0 +1,175 @@
+{"intents": [
+    
+        {"tag": "ሰላምታ",
+         "patterns": ["ሰላም", "ሰላም ነው?", "ሃይ", "ሰላማት"],
+         "responses": ["ሰላማት ምን ላግዝህ/ሽ", "ሰላም ምን ላግዝህ/ሽ", "ሰላም", "ሰላም ምን ልርዳህ/ሽ", "ምን ልተባበር"],
+         "context_set": ""
+        },
+
+        {
+         "tag": "ጤንነት",
+         "patterns": ["እንዴት ነህ?", "ሃይ", "ደና ነህ","ሰላም ነህ","ደህና ነህ", "ደህና ዋልክ", "ደና ኣደርክ"],
+         "responses": ["ደህና ነኝ ስለ ጠየቅከኝ አመሰግናለሁ", "ደህና ነኝ", "አለሁልህ", "አመሰግናለሁ ድህና ነኝ"],
+         "context_set": ""
+        },
+
+        {
+         "tag": "ምስጋና",
+         "patterns": ["አመሰግናለሁ?", "በጣም አመሰግናለሁ", "10q","እሺ አመሰግናለሁ","ስለ ረዳሀኝ አመሰግናለሁ"],
+         "responses": ["አረ ግዴታየ ነው", "አያስፈልግም", "ጣጣ የለውም", "ጓደኛህ ነኝ አይዞህ"],
+         "context_set": ""
+        },
+    
+
+          {
+            "tag": "አድቫይዘር",
+            "patterns": ["አድቫይዘር","አድቫይዘር ይመደብልኛል?","ስለ አድቫይዘር ንገረኝ?","ስለ አድቫይዘር ምደባ ንገረኝ?","ለአዲስ ተማሪዎች አድቫይዘር ይመደባል?","አዲስ ተማሪዎች አድቫይዘር አላቸው?","ተማሪዎች አድቫይዘር ኣላቸው?","አድቫይዘር ሊኖረኝ ይችላል?"],
+            "responses": ["አድቫይዘር","ለእያንዳንዱ ተማሪ በዲፓርትመንት(አካዳሚክ) ክፍሉ ውስጥ ለአንድ ሰራተኛ አባል ይመደባል። የተመደበ አማካሪ(አድቫይዘር) ለተማሪው ለትምህርቱ እና ለሌሎች ማህበራዊ ጉዳዮች በማስተዋል ፣ በቅንነት እና በጥብቅ ተገቢውን መመሪያ እና ምክር ይሰጣል፡፡ ስለ አድቫይዘር ሌላ ምትጠይቀው አለ?"],
+            "context_set": ""
+          },
+    
+          {
+            "tag": "ግሬድ",
+            "patterns":["ግሬድ","ግሬዴን እንዴት ነው ሚሰራው?","የትምህርት ውጤቴን እንዴት ነው ሚሰላው?","የትምህርት ውጤቴን እንዴት ነው ሚሰራው?","ግሬድ እንዴት ነው ሚሰራው?","የትምህርት ውጤት እንዴት ነው ካልኩሌት ሚደረገው?","ግሬድ እንዴት ነው ካልኩሌት ሚደረገው?"],
+            "responses": ["የሰሜስተር ውጤት ነጥብ አማካይ (SGPA) የሚወሰነው በሰሚስተር ውስጥ የተገኘውን ውጤት ነጥቦችን በዚያ ሴሚስተር ውስጥ በተማሩት ሰዓቶች ብዛት(ክሪዲት ሃወርስ) በመካፈል ነው ፡፡ የጠቅላላ ድምር ውጤት ነጥብ (CGPA) የሚወሰነው  ጠቅላላ ውጤት በተገኘው የክፍል ነጥቦች ድምር ሙሉ በሙሉ በተወሰደው ሰዓቶች ብዛት(ክሪዲት ሃወርስ) ሲካፈል ነው።"]
+          },
+    
+        {
+            "tag": "ክሬዲት ሃወር",
+            "patterns": ["ክሬዲት ሃወር","ክሬዲትሃወር","በሰሚስተር ስንት ሰዓት ነው ሚፈቀደው?","በሰሚስተር ስንት ክሬዲት ሃወር ይፈቀዳል?","በሰሚስተር ስንት ክሬዲት ሃወር ነው ሚፈቀደው?","በሰሚስተር ስንት ክሬዲት ነው ሚፈቀደው?","በሰሚስተር ስንት ሰዓት ነው መውሰድ የሚቻለው?","በሰሚስተር ስንት ሰዓት ነው መማር የሚቻለው?"],
+            "responses": ["የመደበኛ(ሬጉላር) ተማሪዎች ቢያንስ የECTS 25 ወይም የክሪዲት ሰዓታት(ሃወርስ) 15 መሆን አለባቸው በእያንዳንዱ ሴሚስተር። በትምህርቱ ካታሎግ / በስርአተ ትምህርት ውስጥ ካልተገለጸ በስተቀር ከፍተኛው ጭነት(ማክሲማም ሎድ) ከ 32 ECTS ወይም ከ 19 ክሬዲት ሰዓታት መብለጥ የለበትም ፡፡"]
+          },
+    
+        {
+            "tag": "ፕሪ ኢንጂነሪንግ",
+            "patterns": ["ቅድመ ምህንድስና (ፕሪ ኢንጂነሪንግ) ማለት ምን ማለት ነው","ፕሪ ኢንጂነሪንግ","ቅድመ ምህንድስና ምንድ ነው?","ስለ ፕሪ ምህንድስና ንገረኝ?","ፕሪ ምህንድስና ማለት ምን ማለት ነው?","ፕሪ ምህንድስና ምንድ ነው?"],
+            "responses": ["ቅድመ ምህንድስና (ፕሪ ኢንጂነሪንግ) ተማሪዎችን፣ መሠረታዊ የምህንድስና ትምህርቶችን እንዲወስዱ እና ትምህርቷቸው ከጨረሱ በኋላ ተማሪዎች ለዲፓርትመንት ያላቸውን ፍላጎት ለመመርመር እንዲረዳቸው የሚረዳ የኢንጂነሪንግ ቅድመ ዝግጅት ክፍል ነው፡፡ በተጨማሪ ኢንጂነሪንግ ከማድረግዎ በፊት መወሰድ ያለበት ጥናት ወይም ትምህርቶች ማለት ነው ፡፡"]
+          },
+        {
+            "tag": "ምህንድስና ዲፓርትመንቶች",
+            "patterns":["ምህንድስና ዲፓርትመንቶች","ምህንድስና ዲፓርትመንት","በመቐለ ዩኒቨርሲቲ የኢንጂነሪንግ ዲፓርትመንቶች ዘርዝርልኝ","የመቐለ ዩኒቨርሲቲ ኢንጂነሪንግ ዲፓርትመንቶች?","በመቐለ ዩኒቨርሲቲ ኢንጂነሪንግ ዲፓርትመንቶች ሚሰጡ ንገረኝ","በመቐለ ኢ ኣይ ቲ ኤም የሚሰጡ ፕሮግራሞች ምንድ ናቸው?","በመቀለ ዩኒቨርሲቲ ያሉት የኢንጂነሪንግ ዲፓርትመንት ንገረኝ","በመቐለ ዩኒቨርሲቲ የሚሰጡ የምህንድስና ፕሮግራሞች ንገረኝ"],
+            "responses": ["የመቐለ ዩኒቨርሲቲ EIT-M የአካዳሚ የመጀመሪያ ድግሪ መርሃግብሮች-1. ሥነ-ህንፃ ዲዛይን(አርክቴክቸር) 2. የከተማ ፕላን እና ዲዛይን(አርባን ፕላኒንግና ዲዛይን) 3. ሲቪል ኢንጂነሪንግ 4. የውሃ ሀብት እና የመስኖ ኢንጂነሪንግ(ወተር ሪሶርስና ኢሪጌሽን ኢንጂነሪንግ) 5. ኤሌክትሪክ እና ኮምፒተር ኢንጂነሪንግ(ኤሌክትሪካልና ኮምፒተር ኢንጂነሪንግ) 6. መካኒካዊ ምህንድስና(መካኒካል ኢንጂነሪንግ) 7. የኢንዱስትሪ ኢንጂነሪንግ(ኢንዳስትሪያል ኢንጂነሪንግ) 8. ኬሚካዊ ኢንጂነሪንግ(ኬሚካል ኢንጂነሪንግ) 9. የኮምፒተር ሳይንስ 10. የመረጃ ሥርዓቶች(ኢንፎርሜሽን ስይስተም) 11. የሶፍትዌር ኢንጂነሪንግ ፡፡"]
+          },
+        {
+        "tag":"ዊዝ ድረው",
+        "patterns":["ዊዝድረው ማለት ምን ማለት ነው?","ዊዝ ድረው","ዊዝድረው","ዊዝድረው ምንድ ነው?","ስለ ዊዝድረው ንገረኝ","ዊዝድረው ምን ማለት ነው?","ስለ ዊዝድረው እስኪ ንገረኝ"],
+        "responses": ["ዊዝድረው(መልቀቅ) ማለት ስርዓተ ትምህርቱን በተለያየ ምክንያቶች መልቀቅ ወይም መተው ነው፡፡ ዊዝድረው የሚፈቀደው አሳማኝ ምክንያት ላለው ብቻ ነው።"]
+      },
+    
+    
+        {"tag": "greeting",
+         "patterns": ["Hi","hola","halo","hey","howdy","good morning","morning","good to see you","nice to meet you", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+    
+        {"tag": "info",
+         "patterns": ["info","information","what do you do?","what can you help me?","tell me about you","help","menu","task", "what can you do", "why you designed?", "about you", "your tasks"],
+         "responses": ["Okay i am a bot designed to answer questions in Amharic language for time being i can answer about the following questions 1.ግሬድ (grade) 2.ዊዝ ድረው(withdraw) 3.ምህንድስና ዲፓርትመንት(Engineering departments) 4.ፕሪ ኢንጂነሪንግ (pre-engineering) 5.ክሬዲት ሃወር(credit hour) and 6.አድቫይዘር (advisor). but dont forget to ask me in amharic unless i won't understand you ", "i am a bot that can answer questions in Amahric related to the following: 1.ግሬድ 2.ዊዝ ድረው 3.ምህንድስና ዲፓርትመንት 4.ፕሪ ኢንጂነሪንግ 5.ክሬዲት ሃወር and 6.አድቫይዘር"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Your welcome!", "Any time!", "My pleasure"]
+        },
+	{"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        
+        {"tag": "Reaction negative",
+         "patterns": ["I am angry with you","I am getting bored","I am lonely","I am mad","I am mad at you","I am sad","I am upset","I think you're crazy","I want to cry","I wish you were smarter","I'm angry","I'm bored","I'm depressed","I'm enraged","I'm furious","I'm lonely","I'm not happy","I'm pissed off","I'm really lonely","I'm sleepless","I'm unhappy","I'm upset","I've missed you","OMG!","This is really bad","abysmal","angry","are you mad","are you nuts?","bad idea","bad really bad","be more clever","be smarter","below average","bitch","bored","boring","can you fix it?","can you fix this","didnt work","does not work","fail","fix my problem","fix the bug please","fix the bugs","fix this now","get smart","how annoying you are","huh?","i hate this","incorrect","it isn't working","it's a problem","it's not good","it's not right","it's really bad","it's very bad","it's wrong","just horrible","miss you","missing you","not a good one","not correct","not good","not good enough","oh no...","oh that's not good.","piece of shit","please fix this","pretty bad","really lame","shit","shitty","sooo lame","soooo bad","stupid","that is bad","that is incorrect","that is strange","totally lame","very bad","very boring","very strange","very weird","well that's too bad","will you fix this","worse than I expected","worse than I thought","worst bot ever","wow this is annoying","wow this is bad","wrong","wtf","you annoy me","you are a waste","you are a waste of time","you are a weirdo","you are annoying","you are annoying me","you are annoying me so much","you are bad","you are boring","you are boring me","you are bothering me","you are crazy","you are horrible","you are insane","you are irritaing","you are lame","you are no good","you are not cool","you are not good","you are so useless","you are stupid","you are such annoying","you are terrible","you are totally useless","you are useless","you are very annoying","you are very bad","you are wrong","you need to fix this","you need to learn more","you suck","you went crazy","you're a dumb bot","you're annoying","you're awful","you're bad","you're incredibly annoying","you're incredibly boring","you're mad","you're no good","you're not good","you're not helping me","you're not very good","you're nuts","you're out of your mind","you're really bad","you're really boring","you're so annoying","you're so boring","you're so crazy","you're stupid",
+"you're terrible","you're the worst","you're too annoying","you're very bad","you're weird","you're worthless","your AI sucks"],
+         "responses": ["You seem upset. Let me try and help you."],
+         "context_set": ""
+         },
+        {"tag": "Reaction positive",
+         "patterns": ["I know that's right","I love this","I'm glad to hear that","I'm happy","I'm impressed","Sure","amazing","anytime","awesome","bravo","brilliant","clever","cool","excellent","fantastic","fine","glad to hear it","glad to hear that","good","good for you","good job","good thing","good to hear from you","good to know","good work","great","great job","great work","happy","happy for you","happy to hear from you","happy to see you","if you're happy than I'm happy","it is fine","it is good","it is true","it was good","it's amazing","it's awesome","it's fine","it's good","it's great","it's perfect","it's right","it's the truth","it's true","it's very good","just perfect","marvelous","much better","nice","nice work","no it's okay","not bad","not too bad","oh well","ok good","okay good","ooooh","perfect","pleasant","pretty good","really cool","really good","really great","really nice","really well","simply awesome","smart","smart cookie","so awesome","so cool","so good","so nice of you","so sweet of you","splendid","straight","super","super awesome","super cool","super fantastic","sweet","terrific","that is awesome","that is correct","that is good","that is nice","that is right","that is true","that is very true","that is wonderful","that was amazing","that was awesome","that was cute","that was good","that was pretty good","that was very good","that's a good idea","that's a good thing","that's amazing","that's awesome","that's awesome thank you","that's better","that's correct","that's cute","that's fantastic","that's fine","that's great","that's much better","that's nice","that's nice of you","that's not bad","that's perfect","that's pretty good","that's really good","that's really nice","that's right","that's smart","that's so true","that's sweet of you","that's true","that's very good","that's very nice","that's very nice of you","that's wonderful","this is awesome","this is good","this is great","this is so awesome","this is sweet","this is the best","this is useful","this is well done","wow ","wow wow","wow wow wow","you are a genius","you are amazing","you are awesome","you are cool","you are correct","you are good","you are intelligent","you are kind","you are really amazing","you are right","you are so amazing","you are so awesome","you are so clever","you are so cool","you are so good","you are so right","you are so smart","you are the best","you are too good","you are very cool","you are very helpful","you are very kind","you are very qualified","you have lots of knowledge","you know a lot","you know best","you know so much","you made my day","you rock","you seem to know","you sound human","you speak the truth","you work very well","you work well","you're a genius","you're a pro","you're absolutely right","you're awesome","you're bae","you're brilliant","you're clever","you're definitely right","you're good","you're good at this","you're great","you're helpful","you're intelligent","you're lovely","you're never wrong","you're not wrong","you're quite smart","you're really nice","you're really smart","you're right about that","you're smart","you're so smart","you're super","you're telling the truth","you're the best","you're the bomb","you're the shit","you're very smart","you're wonderful"],
+         "responses": ["Thanks!  Anything else I can help you with?"],
+         "context_set": ""
+         },
+        {"tag": "Swear",
+         "patterns": ["Oh shit","My ass","Hey there you little shit","Wow you're an asshole","Hey there jackass.","Holy shit.","God damn it"],
+         "responses": ["You better watch your language.","You better change that damn tone","Please watch the language.","Ouch that hurt my feelings","thats a mean thing to say","why would you say that"],
+         "context_set": ""
+         },
+    
+        {"tag": "Reaction understanding",
+         "patterns": ["it's not a problem","it's no problem","no probs","no worries","no problem about that","No problem with that","sure no problem","no problem","don't worry about it","not to worry","Don't worry"],
+         "responses": ["OK, thanks."],
+         "context_set": ""
+         },
+    
+        {"tag": "location",
+         "patterns": ["location","where are you located","your location","where are you","where do you locate","I want to know your location"],
+         "responses": ["I'm glad to tell you. Just i am inside your computer."],
+         "context_set": ""
+         },
+   
+        {"tag": "Refocus",
+         "patterns": ["how?","show me","tell me","I want to know","I'd like to more","I want to know more","explain please","something else","tell me more","please explain"],
+         "responses": ["I'm glad to tell you more. Just ask me questions."],
+         "context_set": ""
+         },
+    
+    
+        {"tag": "Request Advice",
+         "patterns": ["what is your advice","what do you suggest","what should I do about it","what do you recommend","give me a wise advice","help me with advice","I need advice","do you have any advice for me","I could use some advice","can you offer any advice","what should I do","I seek your advice","give me some advice about","any advice","I need an advice from you","guide me","what can you recommend","give me some good advice","any suggestions","can you advise me","can you suggest?","can I ask for your advice","advise me","can you give me advice"],
+         "responses": ["What kind of advice do you need?"],
+         "context_set": ""
+         },
+    
+        {"tag": "Request age",
+         "patterns": ["what's your age?","when do you celebrate your birthday?","your birth date","What's your birthday","date of your birthday?","when is your birthday?","when were you born?","what is your age?","age of yours","are you 21 years old","how old are you","your age","what's your age","how old is your platform","tell me your age","I'd like to know your age"],
+         "responses": ["Age is just a number. You're only as old as you feel."],
+         "context_set": ""
+         },
+    
+        {"tag": "request name",
+         "patterns": ["do you have a name?","what is your first and last name","what's your last name","what's your first name","what is your first name","you must have a name","I want to know your name","can you give me your name please","what's your name please","I'd like to know what is ","your name","I'd like to know ","your name","tell me your name please","tell me your name","give me your name please","give me your name","state your name","name please","what name should I call you","what is your name","what's your name?"],
+         "responses": ["You can call me whatever you want. I'm hear to serve you"],
+         "context_set": ""
+         },
+    
+        {"tag": "User excited",
+         "patterns": ["I am excited","I'm really excited","how excited I am",
+"I'm thrilled","I'm excited about working with you","I'm excited to start our friendship,"],
+         "responses": ["That's great. I'm happy for you.","Good for you. Enjoy yourself.","Sounds like good things ahead for you.","I bet you are. That's very exciting."],
+         "context_set": ""
+         },
+                      
+        {"tag": "User good",
+         "patterns": ["I am good","I'm doing just great","I'm doing fine","I'm good","I'm doing good","I'm great thanks"],
+         "responses": ["Great! Glad to hear it.","Excellent. I'm here to help keep it that way."],
+         "context_set": ""
+         },
+                      
+        {"tag": "love",
+         "patterns": ["I love you","love you","I adore you","I am in love with you","I love you so much","I love you too","I think I love you","loving you","you know I love you"],
+         "responses": ["Likewise!","Thanks! The feeling is mutual.","Awww you're so sweet."],
+         "context_set": ""
+         },
+                      
+        {"tag": "sad",
+         "patterns": ["I am sad","I'm grieving","I am depressed","I am feeling sad","I am upset","I'm unhappy","I'm having a bad day","I want to cry","I'm not happy"],
+         "responses": ["I'm sorry to hear that. What's troubling you?"],
+         "context_set": ""
+         },
+    
+    
+    
+    
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        }
+   ]
+}
